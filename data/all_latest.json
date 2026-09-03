@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T00:08:47",
+  "updated_at": "2026-09-04T08:26:57",
   "selection": {
     "recommend_top_percent": 20,
     "min_recommend_floor": 3,
@@ -47,7 +47,7 @@
     "재뉴": "재뉴"
   },
   "retention_days": 90,
-  "count": 361,
+  "count": 370,
   "posts": [
     {
       "site": "arca",
@@ -103,7 +103,7 @@
       "title": "당분간은 챈 계속 해야겠음",
       "url": "https://arca.live/b/characterai/181705526?p=5&mode=best",
       "recommend": 178,
-      "views": 3155,
+      "views": 3211,
       "comments": 113,
       "has_image": true,
       "posted_at": "2026-09-01T20:37",
@@ -115,8 +115,35 @@
         "해야겠음"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T20:37"
+    },
+    {
+      "site": "arca",
+      "post_id": "181944007",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "지피티 정지먹게 생겼다 씨발",
+      "url": "https://arca.live/b/characterai/181944007?p=1&mode=best",
+      "recommend": 115,
+      "views": 2403,
+      "comments": 41,
+      "has_image": true,
+      "posted_at": "2026-09-04T01:20",
+      "keyword_hits": [
+        {
+          "group": "terms",
+          "word": "지피티"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "정지먹게",
+        "생겼다",
+        "씨발"
+      ],
+      "first_seen": "2026-09-04T08:26:57",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-04T01:20"
     },
     {
       "site": "arca",
@@ -147,8 +174,8 @@
       "source": "아카라이브 AI채팅 채널",
       "title": "Gemini 3.8 Flash 가격 떴음",
       "url": "https://arca.live/b/characterai/181774723?p=4&mode=best",
-      "recommend": 97,
-      "views": 3230,
+      "recommend": 98,
+      "views": 3259,
       "comments": 91,
       "has_image": true,
       "posted_at": "2026-09-02T16:14",
@@ -168,8 +195,30 @@
         "떴음"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T16:14"
+    },
+    {
+      "site": "arca",
+      "post_id": "181869297",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "\"korea... 무서운 나라야...\"",
+      "url": "https://arca.live/b/characterai/181869297?p=2&mode=best",
+      "recommend": 93,
+      "views": 2494,
+      "comments": 26,
+      "has_image": true,
+      "posted_at": "2026-09-03T12:57",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "korea",
+        "무서운",
+        "나라야"
+      ],
+      "first_seen": "2026-09-03T14:10:40",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T12:57"
     },
     {
       "site": "arca",
@@ -193,28 +242,6 @@
       "first_seen": "2026-09-01T20:49:17",
       "last_seen": "2026-09-01T20:50:29",
       "date": "2026-08-29T16:49"
-    },
-    {
-      "site": "arca",
-      "post_id": "181869297",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "\"korea... 무서운 나라야...\"",
-      "url": "https://arca.live/b/characterai/181869297?p=2&mode=best",
-      "recommend": 89,
-      "views": 2352,
-      "comments": 25,
-      "has_image": true,
-      "posted_at": "2026-09-03T12:57",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "korea",
-        "무서운",
-        "나라야"
-      ],
-      "first_seen": "2026-09-03T14:10:40",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T12:57"
     },
     {
       "site": "arca",
@@ -271,12 +298,35 @@
     },
     {
       "site": "arca",
+      "post_id": "181874620",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "스압) 디씨하는 미친 미쿠",
+      "url": "https://arca.live/b/characterai/181874620?p=2&mode=best",
+      "recommend": 81,
+      "views": 3590,
+      "comments": 43,
+      "has_image": true,
+      "posted_at": "2026-09-03T13:56",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "스압",
+        "디씨하",
+        "미친",
+        "미쿠"
+      ],
+      "first_seen": "2026-09-03T15:13:31",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T13:56"
+    },
+    {
+      "site": "arca",
       "post_id": "181803799",
       "source": "아카라이브 AI채팅 채널",
       "title": "삼팔플 검열 쌔다며",
       "url": "https://arca.live/b/characterai/181803799?p=3&mode=best",
-      "recommend": 75,
-      "views": 2594,
+      "recommend": 76,
+      "views": 2623,
       "comments": 29,
       "has_image": true,
       "posted_at": "2026-09-02T20:19",
@@ -292,7 +342,7 @@
         "쌔다며"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T20:19"
     },
     {
@@ -302,7 +352,7 @@
       "title": "\" 민심 테스트 \"",
       "url": "https://arca.live/b/characterai/181772128?p=4&mode=best",
       "recommend": 74,
-      "views": 1115,
+      "views": 1125,
       "comments": 22,
       "has_image": true,
       "posted_at": "2026-09-02T15:45",
@@ -313,97 +363,8 @@
         "테스트"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T15:45"
-    },
-    {
-      "site": "arca",
-      "post_id": "181874620",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "스압) 디씨하는 미친 미쿠",
-      "url": "https://arca.live/b/characterai/181874620?p=2&mode=best",
-      "recommend": 73,
-      "views": 2546,
-      "comments": 41,
-      "has_image": true,
-      "posted_at": "2026-09-03T13:56",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "스압",
-        "디씨하",
-        "미친",
-        "미쿠"
-      ],
-      "first_seen": "2026-09-03T15:13:31",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T13:56"
-    },
-    {
-      "site": "arca",
-      "post_id": "181789365",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "암컷단이 그냥 일당백이라",
-      "url": "https://arca.live/b/characterai/181789365?p=3&mode=best",
-      "recommend": 72,
-      "views": 1675,
-      "comments": 18,
-      "has_image": true,
-      "posted_at": "2026-09-02T18:26",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "암컷단",
-        "일당백이라"
-      ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T18:26"
-    },
-    {
-      "site": "arca",
-      "post_id": "181879068",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "해외에서 제미니 밈 보고 개웃었네 ㅋㅋㅋㅋ",
-      "url": "https://arca.live/b/characterai/181879068?p=1&mode=best",
-      "recommend": 72,
-      "views": 2727,
-      "comments": 39,
-      "has_image": true,
-      "posted_at": "2026-09-03T14:45",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "해외",
-        "제미니",
-        "보고",
-        "개웃었네"
-      ],
-      "first_seen": "2026-09-03T15:13:31",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T14:45"
-    },
-    {
-      "site": "arca",
-      "post_id": "181761951",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "이새기 살짝 짜증낸거같은데",
-      "url": "https://arca.live/b/characterai/181761951?p=4&mode=best",
-      "recommend": 71,
-      "views": 2112,
-      "comments": 36,
-      "has_image": true,
-      "posted_at": "2026-09-02T13:37",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "이새기",
-        "살짝",
-        "짜증낸거같은데"
-      ],
-      "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T13:37"
     },
     {
       "site": "arca",
@@ -411,9 +372,9 @@
       "source": "아카라이브 AI채팅 채널",
       "title": "WSJ \"구글, '제미나이 3.5 프로' 폐기...차세대 모델 집중\"",
       "url": "https://arca.live/b/characterai/181901882?p=1&mode=best",
-      "recommend": 71,
-      "views": 2421,
-      "comments": 83,
+      "recommend": 74,
+      "views": 2780,
+      "comments": 84,
       "has_image": true,
       "posted_at": "2026-09-03T18:46",
       "keyword_hits": [
@@ -434,31 +395,52 @@
         "집중"
       ],
       "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T18:46"
     },
     {
       "site": "arca",
-      "post_id": "181711416",
+      "post_id": "181789365",
       "source": "아카라이브 AI채팅 채널",
-      "title": "내 잼민이가 수학 난제 풀었음!!!!",
-      "url": "https://arca.live/b/characterai/181711416?p=5&mode=best",
-      "recommend": 70,
-      "views": 2235,
-      "comments": 40,
+      "title": "암컷단이 그냥 일당백이라",
+      "url": "https://arca.live/b/characterai/181789365?p=4&mode=best",
+      "recommend": 73,
+      "views": 1710,
+      "comments": 18,
       "has_image": true,
-      "posted_at": "2026-09-01T21:33",
+      "posted_at": "2026-09-02T18:26",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "잼민이",
-        "수학",
-        "난제",
-        "풀었음"
+        "암컷단",
+        "일당백이라"
       ],
-      "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-01T21:33"
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T18:26"
+    },
+    {
+      "site": "arca",
+      "post_id": "181879068",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "해외에서 제미니 밈 보고 개웃었네 ㅋㅋㅋㅋ",
+      "url": "https://arca.live/b/characterai/181879068?p=2&mode=best",
+      "recommend": 73,
+      "views": 2878,
+      "comments": 40,
+      "has_image": true,
+      "posted_at": "2026-09-03T14:45",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "해외",
+        "제미니",
+        "보고",
+        "개웃었네"
+      ],
+      "first_seen": "2026-09-03T15:13:31",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T14:45"
     },
     {
       "site": "arca",
@@ -466,8 +448,8 @@
       "source": "아카라이브 AI채팅 채널",
       "title": "\"이것 보세요. 갑자기 PDF 처리율이 급격하게 늘었어요.\"",
       "url": "https://arca.live/b/characterai/181775795?p=4&mode=best",
-      "recommend": 70,
-      "views": 1775,
+      "recommend": 71,
+      "views": 1797,
       "comments": 27,
       "has_image": true,
       "posted_at": "2026-09-02T16:26",
@@ -483,8 +465,53 @@
         "늘었어요"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T16:26"
+    },
+    {
+      "site": "arca",
+      "post_id": "181761951",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "이새기 살짝 짜증낸거같은데",
+      "url": "https://arca.live/b/characterai/181761951?p=4&mode=best",
+      "recommend": 71,
+      "views": 2125,
+      "comments": 36,
+      "has_image": true,
+      "posted_at": "2026-09-02T13:37",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "이새기",
+        "살짝",
+        "짜증낸거같은데"
+      ],
+      "first_seen": "2026-09-02T16:35:07",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T13:37"
+    },
+    {
+      "site": "arca",
+      "post_id": "181711416",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "내 잼민이가 수학 난제 풀었음!!!!",
+      "url": "https://arca.live/b/characterai/181711416?p=5&mode=best",
+      "recommend": 70,
+      "views": 2275,
+      "comments": 40,
+      "has_image": true,
+      "posted_at": "2026-09-01T21:33",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "잼민이",
+        "수학",
+        "난제",
+        "풀었음"
+      ],
+      "first_seen": "2026-09-02T07:58:20",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-01T21:33"
     },
     {
       "site": "arca",
@@ -493,8 +520,8 @@
       "title": "llm 사직서 개웃기네 ㅋㅋ",
       "url": "https://arca.live/b/characterai/181863162?p=2&mode=best",
       "recommend": 65,
-      "views": 2561,
-      "comments": 36,
+      "views": 2650,
+      "comments": 38,
       "has_image": true,
       "posted_at": "2026-09-03T11:50",
       "keyword_hits": [],
@@ -505,7 +532,7 @@
         "개웃기네"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T11:50"
     },
     {
@@ -515,7 +542,7 @@
       "title": "길을 걷다가 로건을 주웠어",
       "url": "https://arca.live/b/characterai/181748337?p=4&mode=best",
       "recommend": 62,
-      "views": 1376,
+      "views": 1387,
       "comments": 24,
       "has_image": true,
       "posted_at": "2026-09-02T10:30",
@@ -528,8 +555,33 @@
         "주웠어"
       ],
       "first_seen": "2026-09-02T11:24:52",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T10:30"
+    },
+    {
+      "site": "arca",
+      "post_id": "181939409",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "\"드디어 깨어났나 챗붕 그것은 현실이 아니었다네\"",
+      "url": "https://arca.live/b/characterai/181939409?p=1&mode=best",
+      "recommend": 61,
+      "views": 1701,
+      "comments": 41,
+      "has_image": true,
+      "posted_at": "2026-09-04T00:20",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "드디어",
+        "깨어났나",
+        "챗붕",
+        "그것",
+        "현실",
+        "아니었다네"
+      ],
+      "first_seen": "2026-09-04T08:26:57",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-04T00:20"
     },
     {
       "site": "arca",
@@ -537,8 +589,8 @@
       "source": "아카라이브 AI채팅 채널",
       "title": "잼삼팔 경악스럽네",
       "url": "https://arca.live/b/characterai/181841480?p=2&mode=best",
-      "recommend": 59,
-      "views": 3576,
+      "recommend": 60,
+      "views": 3675,
       "comments": 37,
       "has_image": true,
       "posted_at": "2026-09-03T02:02",
@@ -549,7 +601,7 @@
         "경악스럽네"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T02:02"
     },
     {
@@ -559,7 +611,7 @@
       "title": "AI 소설 욕하는 글인데 ㄹㅇ 육성으로 뿜었네ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
       "url": "https://arca.live/b/characterai/181699202?p=5&mode=best",
       "recommend": 58,
-      "views": 2473,
+      "views": 2512,
       "comments": 50,
       "has_image": true,
       "posted_at": "2026-09-01T19:37",
@@ -574,7 +626,7 @@
         "뿜었네"
       ],
       "first_seen": "2026-09-01T21:08:09",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T19:37"
     },
     {
@@ -584,7 +636,7 @@
       "title": "내가 만든 플러그인/모듈 추천",
       "url": "https://arca.live/b/characterai/181721815?p=5&mode=best",
       "recommend": 58,
-      "views": 1216,
+      "views": 1253,
       "comments": 39,
       "has_image": true,
       "posted_at": "2026-09-01T23:16",
@@ -598,8 +650,32 @@
         "추천"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T23:16"
+    },
+    {
+      "site": "arca",
+      "post_id": "181752335",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "AI야, 방금 마포대교에서 찍은 사진이야",
+      "url": "https://arca.live/b/characterai/181752335?p=4&mode=best",
+      "recommend": 58,
+      "views": 1593,
+      "comments": 16,
+      "has_image": true,
+      "posted_at": "2026-09-02T11:34",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "ai",
+        "방금",
+        "마포대교",
+        "찍은",
+        "사진이야"
+      ],
+      "first_seen": "2026-09-02T16:35:07",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T11:34"
     },
     {
       "site": "arca",
@@ -625,27 +701,77 @@
     },
     {
       "site": "arca",
-      "post_id": "181752335",
+      "post_id": "181776661",
       "source": "아카라이브 AI채팅 채널",
-      "title": "AI야, 방금 마포대교에서 찍은 사진이야",
-      "url": "https://arca.live/b/characterai/181752335?p=4&mode=best",
+      "title": "삼팔플 \"그거\" 입갤 ㅋㅋ",
+      "url": "https://arca.live/b/characterai/181776661?p=4&mode=best",
       "recommend": 57,
-      "views": 1584,
-      "comments": 16,
+      "views": 2769,
+      "comments": 48,
       "has_image": true,
-      "posted_at": "2026-09-02T11:34",
+      "posted_at": "2026-09-02T16:36",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "ai",
-        "방금",
-        "마포대교",
-        "찍은",
-        "사진이야"
+        "삼팔플",
+        "그거",
+        "입갤"
       ],
-      "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T11:34"
+      "first_seen": "2026-09-02T17:04:48",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T16:36"
+    },
+    {
+      "site": "arca",
+      "post_id": "181778825",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "Korean Developer들은 정말 성실하구나! Vertex까지 와서 모델을 먼저 써보다니...",
+      "url": "https://arca.live/b/characterai/181778825?p=4&mode=best",
+      "recommend": 57,
+      "views": 1613,
+      "comments": 5,
+      "has_image": true,
+      "posted_at": "2026-09-02T17:00",
+      "keyword_hits": [],
+      "is_meme_candidate": false,
+      "tokens": [
+        "korean",
+        "developer",
+        "들은",
+        "정말",
+        "성실하구나",
+        "vertex",
+        "까지",
+        "와서",
+        "모델",
+        "먼저",
+        "써보다니"
+      ],
+      "first_seen": "2026-09-02T17:13:41",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T17:00"
+    },
+    {
+      "site": "arca",
+      "post_id": "181802069",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "좆은 좋은 거야",
+      "url": "https://arca.live/b/characterai/181802069?p=3&mode=best",
+      "recommend": 57,
+      "views": 1652,
+      "comments": 22,
+      "has_image": true,
+      "posted_at": "2026-09-02T20:06",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "좆은",
+        "좋은",
+        "거야"
+      ],
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T20:06"
     },
     {
       "site": "arca",
@@ -679,25 +805,35 @@
     },
     {
       "site": "arca",
-      "post_id": "181776661",
+      "post_id": "181839947",
       "source": "아카라이브 AI채팅 채널",
-      "title": "삼팔플 \"그거\" 입갤 ㅋㅋ",
-      "url": "https://arca.live/b/characterai/181776661?p=4&mode=best",
+      "title": "서리 프롬프트 for Gemini v13.4 updated",
+      "url": "https://arca.live/b/characterai/181839947?p=2&mode=best",
       "recommend": 56,
-      "views": 2744,
-      "comments": 48,
+      "views": 1040,
+      "comments": 19,
       "has_image": true,
-      "posted_at": "2026-09-02T16:36",
-      "keyword_hits": [],
+      "posted_at": "2026-09-03T01:32",
+      "keyword_hits": [
+        {
+          "group": "terms",
+          "word": "프롬프트"
+        },
+        {
+          "group": "terms",
+          "word": "gemini"
+        }
+      ],
       "is_meme_candidate": true,
       "tokens": [
-        "삼팔플",
-        "그거",
-        "입갤"
+        "서리",
+        "for",
+        "v13",
+        "updated"
       ],
-      "first_seen": "2026-09-02T17:04:48",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T16:36"
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T01:32"
     },
     {
       "site": "arca",
@@ -706,7 +842,7 @@
       "title": "통이 빛나는 밤에 갓모듈이네 ㅋㅋㅋㅋㅋㅋㅋ",
       "url": "https://arca.live/b/characterai/181820326?p=3&mode=best",
       "recommend": 56,
-      "views": 1422,
+      "views": 1449,
       "comments": 29,
       "has_image": true,
       "posted_at": "2026-09-02T22:17",
@@ -719,30 +855,38 @@
         "갓모듈이네"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T22:17"
     },
     {
       "site": "arca",
-      "post_id": "181802069",
+      "post_id": "181841359",
       "source": "아카라이브 AI채팅 채널",
-      "title": "좆은 좋은 거야",
-      "url": "https://arca.live/b/characterai/181802069?p=3&mode=best",
+      "title": "GPT 5.6한테 아스트라 나오면 바로 버릴게 ㅋㅋㅋ 한 결과",
+      "url": "https://arca.live/b/characterai/181841359?p=1&mode=best",
       "recommend": 56,
-      "views": 1639,
-      "comments": 22,
+      "views": 1390,
+      "comments": 29,
       "has_image": true,
-      "posted_at": "2026-09-02T20:06",
-      "keyword_hits": [],
+      "posted_at": "2026-09-03T01:59",
+      "keyword_hits": [
+        {
+          "group": "terms",
+          "word": "gpt"
+        }
+      ],
       "is_meme_candidate": true,
       "tokens": [
-        "좆은",
-        "좋은",
-        "거야"
+        "한테",
+        "아스트라",
+        "나오면",
+        "바로",
+        "버릴게",
+        "결과"
       ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T20:06"
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T01:59"
     },
     {
       "site": "arca",
@@ -814,65 +958,49 @@
     },
     {
       "site": "arca",
-      "post_id": "181778825",
+      "post_id": "181778837",
       "source": "아카라이브 AI채팅 채널",
-      "title": "Korean Developer들은 정말 성실하구나! Vertex까지 와서 모델을 먼저 써보다니...",
-      "url": "https://arca.live/b/characterai/181778825?p=3&mode=best",
-      "recommend": 55,
-      "views": 1589,
-      "comments": 5,
+      "title": "???: PDF로 채팅을 한다고? 그런 새끼들이 어딨어 ㅋㅋㅋㅋ",
+      "url": "https://arca.live/b/characterai/181778837?p=4&mode=best",
+      "recommend": 53,
+      "views": 1855,
+      "comments": 4,
       "has_image": true,
       "posted_at": "2026-09-02T17:00",
       "keyword_hits": [],
-      "is_meme_candidate": false,
+      "is_meme_candidate": true,
       "tokens": [
-        "korean",
-        "developer",
-        "들은",
-        "정말",
-        "성실하구나",
-        "vertex",
-        "까지",
-        "와서",
-        "모델",
-        "먼저",
-        "써보다니"
+        "pdf",
+        "채팅",
+        "한다고",
+        "새끼들",
+        "어딨어"
       ],
       "first_seen": "2026-09-02T17:13:41",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T17:00"
     },
     {
       "site": "arca",
-      "post_id": "181839947",
+      "post_id": "181668346",
       "source": "아카라이브 AI채팅 채널",
-      "title": "서리 프롬프트 for Gemini v13.4 updated",
-      "url": "https://arca.live/b/characterai/181839947?p=2&mode=best",
-      "recommend": 55,
-      "views": 1013,
-      "comments": 18,
+      "title": "클 20x 사건 점점 공론화되네",
+      "url": "https://arca.live/b/characterai/181668346?p=3&mode=best",
+      "recommend": 53,
+      "views": 1793,
+      "comments": 33,
       "has_image": true,
-      "posted_at": "2026-09-03T01:32",
-      "keyword_hits": [
-        {
-          "group": "terms",
-          "word": "프롬프트"
-        },
-        {
-          "group": "terms",
-          "word": "gemini"
-        }
-      ],
+      "posted_at": "2026-09-01T13:48",
+      "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "서리",
-        "for",
-        "v13",
-        "updated"
+        "사건",
+        "점점",
+        "공론화되네"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T01:32"
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-01T13:48"
     },
     {
       "site": "arca",
@@ -929,58 +1057,12 @@
     },
     {
       "site": "arca",
-      "post_id": "181778837",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "???: PDF로 채팅을 한다고? 그런 새끼들이 어딨어 ㅋㅋㅋㅋ",
-      "url": "https://arca.live/b/characterai/181778837?p=3&mode=best",
-      "recommend": 52,
-      "views": 1824,
-      "comments": 4,
-      "has_image": true,
-      "posted_at": "2026-09-02T17:00",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "pdf",
-        "채팅",
-        "한다고",
-        "새끼들",
-        "어딨어"
-      ],
-      "first_seen": "2026-09-02T17:13:41",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T17:00"
-    },
-    {
-      "site": "arca",
-      "post_id": "181668346",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "클 20x 사건 점점 공론화되네",
-      "url": "https://arca.live/b/characterai/181668346?p=3&mode=best",
-      "recommend": 52,
-      "views": 1770,
-      "comments": 33,
-      "has_image": true,
-      "posted_at": "2026-09-01T13:48",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "사건",
-        "점점",
-        "공론화되네"
-      ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-01T13:48"
-    },
-    {
-      "site": "arca",
       "post_id": "181817477",
       "source": "아카라이브 AI채팅 채널",
       "title": "통이 빛나는 밤에 모듈 후기",
       "url": "https://arca.live/b/characterai/181817477?p=3&mode=best",
       "recommend": 52,
-      "views": 1282,
+      "views": 1297,
       "comments": 33,
       "has_image": true,
       "posted_at": "2026-09-02T21:54",
@@ -998,8 +1080,39 @@
         "모듈"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T21:54"
+    },
+    {
+      "site": "arca",
+      "post_id": "181904610",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "gemini 3.1.16.1 플래시 무료 크레딧 다운로드",
+      "url": "https://arca.live/b/characterai/181904610?p=1&mode=best",
+      "recommend": 52,
+      "views": 1850,
+      "comments": 40,
+      "has_image": true,
+      "posted_at": "2026-09-03T19:09",
+      "keyword_hits": [
+        {
+          "group": "demand_pain",
+          "word": "무료"
+        },
+        {
+          "group": "terms",
+          "word": "gemini"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "플래시",
+        "크레딧",
+        "다운로드"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T19:09"
     },
     {
       "site": "arca",
@@ -1086,6 +1199,63 @@
     },
     {
       "site": "arca",
+      "post_id": "181713373",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "의외로 개잼민이 검열 피하는 방법.RealFactos",
+      "url": "https://arca.live/b/characterai/181713373?p=5&mode=best",
+      "recommend": 51,
+      "views": 2206,
+      "comments": 41,
+      "has_image": true,
+      "posted_at": "2026-09-01T21:52",
+      "keyword_hits": [
+        {
+          "group": "demand_pain",
+          "word": "검열"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "의외",
+        "개잼민",
+        "피하",
+        "방법",
+        "realfactos"
+      ],
+      "first_seen": "2026-09-02T07:58:20",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-01T21:52"
+    },
+    {
+      "site": "arca",
+      "post_id": "181856719",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "요새 봇 만드는게 힘든 이유",
+      "url": "https://arca.live/b/characterai/181856719?p=2&mode=best",
+      "recommend": 51,
+      "views": 1270,
+      "comments": 15,
+      "has_image": true,
+      "posted_at": "2026-09-03T10:16",
+      "keyword_hits": [
+        {
+          "group": "terms",
+          "word": "봇"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "요새",
+        "만드는게",
+        "힘든",
+        "이유"
+      ],
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T10:16"
+    },
+    {
+      "site": "arca",
       "post_id": "181446152",
       "source": "아카라이브 AI채팅 채널",
       "title": "원숭이도 할 수 있는 A to Z 봇 만들기 (견본 보추마망 포함)",
@@ -1116,69 +1286,39 @@
     },
     {
       "site": "arca",
-      "post_id": "181713373",
+      "post_id": "181805192",
       "source": "아카라이브 AI채팅 채널",
-      "title": "의외로 개잼민이 검열 피하는 방법.RealFactos",
-      "url": "https://arca.live/b/characterai/181713373?p=4&mode=best",
+      "title": "삼팔플이 삼일이 보다 캐해나 지능이 맛있어 봐야 겨우 11~12배...",
+      "url": "https://arca.live/b/characterai/181805192?p=3&mode=best",
       "recommend": 50,
-      "views": 2185,
-      "comments": 41,
+      "views": 1887,
+      "comments": 13,
       "has_image": true,
-      "posted_at": "2026-09-01T21:52",
-      "keyword_hits": [
-        {
-          "group": "demand_pain",
-          "word": "검열"
-        }
-      ],
+      "posted_at": "2026-09-02T20:29",
+      "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "의외",
-        "개잼민",
-        "피하",
-        "방법",
-        "realfactos"
-      ],
-      "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-01T21:52"
-    },
-    {
-      "site": "arca",
-      "post_id": "181856719",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "요새 봇 만드는게 힘든 이유",
-      "url": "https://arca.live/b/characterai/181856719?p=2&mode=best",
-      "recommend": 50,
-      "views": 1219,
-      "comments": 15,
-      "has_image": true,
-      "posted_at": "2026-09-03T10:16",
-      "keyword_hits": [
-        {
-          "group": "terms",
-          "word": "봇"
-        }
-      ],
-      "is_meme_candidate": true,
-      "tokens": [
-        "요새",
-        "만드는게",
-        "힘든",
-        "이유"
+        "삼팔플",
+        "삼일",
+        "보다",
+        "캐해나",
+        "지능",
+        "맛있어",
+        "봐야",
+        "겨우"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T10:16"
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T20:29"
     },
     {
       "site": "arca",
       "post_id": "181782947",
       "source": "아카라이브 AI채팅 채널",
       "title": "잼삼팔플) 이보게 점소이, 까르보나라 한 그릇 말아 주시게.",
-      "url": "https://arca.live/b/characterai/181782947?p=3&mode=best",
+      "url": "https://arca.live/b/characterai/181782947?p=4&mode=best",
       "recommend": 50,
-      "views": 1761,
+      "views": 1774,
       "comments": 32,
       "has_image": true,
       "posted_at": "2026-09-02T17:36",
@@ -1194,7 +1334,7 @@
         "주시게"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T17:36"
     },
     {
@@ -1254,7 +1394,7 @@
       "title": "제미니팀 내부에서 한판 싸우고 개편된 이후 수상하게 rp가 급격히 맛있어짐",
       "url": "https://arca.live/b/characterai/181773868?p=4&mode=best",
       "recommend": 49,
-      "views": 1475,
+      "views": 1484,
       "comments": 7,
       "has_image": true,
       "posted_at": "2026-09-02T16:05",
@@ -1273,66 +1413,8 @@
         "맛있어짐"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T16:05"
-    },
-    {
-      "site": "arca",
-      "post_id": "181805192",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "삼팔플이 삼일이 보다 캐해나 지능이 맛있어 봐야 겨우 11~12배...",
-      "url": "https://arca.live/b/characterai/181805192?p=3&mode=best",
-      "recommend": 49,
-      "views": 1858,
-      "comments": 13,
-      "has_image": true,
-      "posted_at": "2026-09-02T20:29",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "삼팔플",
-        "삼일",
-        "보다",
-        "캐해나",
-        "지능",
-        "맛있어",
-        "봐야",
-        "겨우"
-      ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T20:29"
-    },
-    {
-      "site": "arca",
-      "post_id": "181904610",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "gemini 3.1.16.1 플래시 무료 크레딧 다운로드",
-      "url": "https://arca.live/b/characterai/181904610?p=1&mode=best",
-      "recommend": 49,
-      "views": 1600,
-      "comments": 37,
-      "has_image": true,
-      "posted_at": "2026-09-03T19:09",
-      "keyword_hits": [
-        {
-          "group": "demand_pain",
-          "word": "무료"
-        },
-        {
-          "group": "terms",
-          "word": "gemini"
-        }
-      ],
-      "is_meme_candidate": true,
-      "tokens": [
-        "플래시",
-        "크레딧",
-        "다운로드"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T19:09"
     },
     {
       "site": "arca",
@@ -1341,7 +1423,7 @@
       "title": "불법 증류는 뭔 개소리임",
       "url": "https://arca.live/b/characterai/181736895?p=4&mode=best",
       "recommend": 48,
-      "views": 1918,
+      "views": 1942,
       "comments": 16,
       "has_image": true,
       "posted_at": "2026-09-02T03:30",
@@ -1353,38 +1435,8 @@
         "개소리임"
       ],
       "first_seen": "2026-09-02T11:24:52",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T03:30"
-    },
-    {
-      "site": "arca",
-      "post_id": "181841359",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "GPT 5.6한테 아스트라 나오면 바로 버릴게 ㅋㅋㅋ 한 결과",
-      "url": "https://arca.live/b/characterai/181841359?p=1&mode=best",
-      "recommend": 48,
-      "views": 1171,
-      "comments": 25,
-      "has_image": true,
-      "posted_at": "2026-09-03T01:59",
-      "keyword_hits": [
-        {
-          "group": "terms",
-          "word": "gpt"
-        }
-      ],
-      "is_meme_candidate": true,
-      "tokens": [
-        "한테",
-        "아스트라",
-        "나오면",
-        "바로",
-        "버릴게",
-        "결과"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T01:59"
     },
     {
       "site": "arca",
@@ -1494,7 +1546,7 @@
       "title": "Gemini Pro 출시기원 36일차",
       "url": "https://arca.live/b/characterai/181774555?p=4&mode=best",
       "recommend": 46,
-      "views": 1090,
+      "views": 1103,
       "comments": 24,
       "has_image": true,
       "posted_at": "2026-09-02T16:12",
@@ -1511,8 +1563,33 @@
         "일차"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T16:12"
+    },
+    {
+      "site": "arca",
+      "post_id": "181898107",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "대체 8분이나 기다린 아웃풋은 얼마나 맛있을까?",
+      "url": "https://arca.live/b/characterai/181898107?p=1&mode=best",
+      "recommend": 46,
+      "views": 1351,
+      "comments": 11,
+      "has_image": true,
+      "posted_at": "2026-09-03T18:10",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "대체",
+        "분이나",
+        "기다린",
+        "아웃풋",
+        "얼마나",
+        "맛있을까"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T18:10"
     },
     {
       "site": "arca",
@@ -1571,9 +1648,9 @@
       "post_id": "181731879",
       "source": "아카라이브 AI채팅 채널",
       "title": "미안합니다 챗부이 여러분들..!",
-      "url": "https://arca.live/b/characterai/181731879?p=4&mode=best",
+      "url": "https://arca.live/b/characterai/181731879?p=5&mode=best",
       "recommend": 45,
-      "views": 1597,
+      "views": 1606,
       "comments": 47,
       "has_image": true,
       "posted_at": "2026-09-02T01:20",
@@ -1585,7 +1662,7 @@
         "여러분들"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T01:20"
     },
     {
@@ -1593,9 +1670,9 @@
       "post_id": "181835193",
       "source": "아카라이브 AI채팅 채널",
       "title": "Mask 프로바이더 중요 업데이트!!",
-      "url": "https://arca.live/b/characterai/181835193?p=2&mode=best",
+      "url": "https://arca.live/b/characterai/181835193?p=3&mode=best",
       "recommend": 45,
-      "views": 1120,
+      "views": 1174,
       "comments": 46,
       "has_image": true,
       "posted_at": "2026-09-03T00:27",
@@ -1608,33 +1685,53 @@
         "업데이트"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T00:27"
     },
     {
       "site": "arca",
-      "post_id": "181898107",
+      "post_id": "181872874",
       "source": "아카라이브 AI채팅 채널",
-      "title": "대체 8분이나 기다린 아웃풋은 얼마나 맛있을까?",
-      "url": "https://arca.live/b/characterai/181898107?p=1&mode=best",
+      "title": "우리집 솔이 쌓인 게 많았구나",
+      "url": "https://arca.live/b/characterai/181872874?p=2&mode=best",
       "recommend": 45,
-      "views": 1178,
-      "comments": 11,
+      "views": 1317,
+      "comments": 18,
       "has_image": true,
-      "posted_at": "2026-09-03T18:10",
+      "posted_at": "2026-09-03T13:35",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "대체",
-        "분이나",
-        "기다린",
-        "아웃풋",
-        "얼마나",
-        "맛있을까"
+        "우리집",
+        "솔이",
+        "쌓인",
+        "많았구나"
+      ],
+      "first_seen": "2026-09-03T17:24:56",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T13:35"
+    },
+    {
+      "site": "arca",
+      "post_id": "181916334",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "챗붕이 평균 외모 ㄷㄷ",
+      "url": "https://arca.live/b/characterai/181916334?p=1&mode=best",
+      "recommend": 45,
+      "views": 1434,
+      "comments": 14,
+      "has_image": true,
+      "posted_at": "2026-09-03T20:48",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "챗붕",
+        "평균",
+        "외모"
       ],
       "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T18:10"
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T20:48"
     },
     {
       "site": "arca",
@@ -1681,26 +1778,58 @@
     },
     {
       "site": "arca",
-      "post_id": "181872874",
+      "post_id": "181793324",
       "source": "아카라이브 AI채팅 채널",
-      "title": "우리집 솔이 쌓인 게 많았구나",
-      "url": "https://arca.live/b/characterai/181872874?p=1&mode=best",
+      "title": "남캐봇 후기 쓰는 챗붕이들이 많다고?",
+      "url": "https://arca.live/b/characterai/181793324?p=3&mode=best",
       "recommend": 44,
-      "views": 1235,
-      "comments": 18,
+      "views": 958,
+      "comments": 35,
       "has_image": true,
-      "posted_at": "2026-09-03T13:35",
+      "posted_at": "2026-09-02T18:57",
+      "keyword_hits": [
+        {
+          "group": "content_meme",
+          "word": "후기"
+        },
+        {
+          "group": "terms",
+          "word": "봇"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "남캐봇",
+        "쓰는",
+        "챗붕이들",
+        "많다고"
+      ],
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T18:57"
+    },
+    {
+      "site": "arca",
+      "post_id": "181938385",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "\"챗붕쿤, 이제 드디어 날 봐주기로 한 거야?\"",
+      "url": "https://arca.live/b/characterai/181938385?p=1&mode=best",
+      "recommend": 44,
+      "views": 1364,
+      "comments": 26,
+      "has_image": true,
+      "posted_at": "2026-09-04T00:09",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "우리집",
-        "솔이",
-        "쌓인",
-        "많았구나"
+        "챗붕쿤",
+        "드디어",
+        "봐주기",
+        "거야"
       ],
-      "first_seen": "2026-09-03T17:24:56",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T13:35"
+      "first_seen": "2026-09-04T08:26:57",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-04T00:09"
     },
     {
       "site": "arca",
@@ -1810,9 +1939,9 @@
       "post_id": "181711156",
       "source": "아카라이브 AI채팅 채널",
       "title": "폭풍전야.",
-      "url": "https://arca.live/b/characterai/181711156?p=4&mode=best",
+      "url": "https://arca.live/b/characterai/181711156?p=5&mode=best",
       "recommend": 43,
-      "views": 1431,
+      "views": 1447,
       "comments": 23,
       "has_image": true,
       "posted_at": "2026-09-01T21:31",
@@ -1822,40 +1951,74 @@
         "폭풍전야"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T21:31"
     },
     {
       "site": "arca",
-      "post_id": "181793324",
+      "post_id": "181778274",
       "source": "아카라이브 AI채팅 채널",
-      "title": "남캐봇 후기 쓰는 챗붕이들이 많다고?",
-      "url": "https://arca.live/b/characterai/181793324?p=3&mode=best",
+      "title": "\"뭔 소리야 그게\"",
+      "url": "https://arca.live/b/characterai/181778274?p=4&mode=best",
       "recommend": 43,
-      "views": 944,
-      "comments": 35,
+      "views": 1494,
+      "comments": 7,
       "has_image": true,
-      "posted_at": "2026-09-02T18:57",
-      "keyword_hits": [
-        {
-          "group": "content_meme",
-          "word": "후기"
-        },
-        {
-          "group": "terms",
-          "word": "봇"
-        }
-      ],
+      "posted_at": "2026-09-02T16:54",
+      "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "남캐봇",
-        "쓰는",
-        "챗붕이들",
-        "많다고"
+        "소리야",
+        "그게"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T18:57"
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T16:54"
+    },
+    {
+      "site": "arca",
+      "post_id": "181777685",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "교수님이 AI랑 많이 친해지라더라",
+      "url": "https://arca.live/b/characterai/181777685?p=4&mode=best",
+      "recommend": 43,
+      "views": 1901,
+      "comments": 28,
+      "has_image": true,
+      "posted_at": "2026-09-02T16:48",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "교수님",
+        "ai",
+        "많이",
+        "친해지라더라"
+      ],
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T16:48"
+    },
+    {
+      "site": "arca",
+      "post_id": "181894558",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "저는 AI가 아닙니다",
+      "url": "https://arca.live/b/characterai/181894558?p=2&mode=best",
+      "recommend": 43,
+      "views": 1305,
+      "comments": 29,
+      "has_image": true,
+      "posted_at": "2026-09-03T17:34",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "저는",
+        "ai",
+        "아닙니다"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T17:34"
     },
     {
       "site": "arca",
@@ -1886,9 +2049,9 @@
       "post_id": "181740292",
       "source": "아카라이브 AI채팅 채널",
       "title": "구글 로건,토큰 소비 88% 감소하는 신 기술 발표",
-      "url": "https://arca.live/b/characterai/181740292?p=4&mode=best",
+      "url": "https://arca.live/b/characterai/181740292?p=5&mode=best",
       "recommend": 42,
-      "views": 2489,
+      "views": 2508,
       "comments": 19,
       "has_image": true,
       "posted_at": "2026-09-02T07:10",
@@ -1908,7 +2071,7 @@
         "발표"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T07:10"
     },
     {
@@ -1918,7 +2081,7 @@
       "title": "gemini 3.8 flash 나왔는데도 유출 트윗들 왜 다 조용한가 했는데",
       "url": "https://arca.live/b/characterai/181772101?p=4&mode=best",
       "recommend": 42,
-      "views": 2241,
+      "views": 2254,
       "comments": 23,
       "has_image": true,
       "posted_at": "2026-09-02T15:45",
@@ -1938,52 +2101,29 @@
         "했는데"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T15:45"
     },
     {
       "site": "arca",
-      "post_id": "181778274",
+      "post_id": "181780880",
       "source": "아카라이브 AI채팅 채널",
-      "title": "\"뭔 소리야 그게\"",
-      "url": "https://arca.live/b/characterai/181778274?p=3&mode=best",
+      "title": "[CPM] 업뎃내역 1.57.3",
+      "url": "https://arca.live/b/characterai/181780880?p=4&mode=best",
       "recommend": 42,
-      "views": 1474,
-      "comments": 7,
+      "views": 1222,
+      "comments": 31,
       "has_image": true,
-      "posted_at": "2026-09-02T16:54",
+      "posted_at": "2026-09-02T17:17",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "소리야",
-        "그게"
+        "cpm",
+        "업뎃내역"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T16:54"
-    },
-    {
-      "site": "arca",
-      "post_id": "181777685",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "교수님이 AI랑 많이 친해지라더라",
-      "url": "https://arca.live/b/characterai/181777685?p=3&mode=best",
-      "recommend": 42,
-      "views": 1871,
-      "comments": 28,
-      "has_image": true,
-      "posted_at": "2026-09-02T16:48",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "교수님",
-        "ai",
-        "많이",
-        "친해지라더라"
-      ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T16:48"
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T17:17"
     },
     {
       "site": "arca",
@@ -2050,7 +2190,7 @@
       "title": "gemini-3.8-flash",
       "url": "https://arca.live/b/characterai/181824002?p=3&mode=best",
       "recommend": 41,
-      "views": 2089,
+      "views": 2128,
       "comments": 13,
       "has_image": true,
       "posted_at": "2026-09-02T22:46",
@@ -2065,29 +2205,28 @@
         "flash"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T22:46"
     },
     {
       "site": "arca",
-      "post_id": "181780880",
+      "post_id": "181781909",
       "source": "아카라이브 AI채팅 채널",
-      "title": "[CPM] 업뎃내역 1.57.3",
-      "url": "https://arca.live/b/characterai/181780880?p=3&mode=best",
+      "title": "삼팔플슬슬질리네",
+      "url": "https://arca.live/b/characterai/181781909?p=4&mode=best",
       "recommend": 41,
-      "views": 1193,
-      "comments": 31,
+      "views": 2142,
+      "comments": 16,
       "has_image": true,
-      "posted_at": "2026-09-02T17:17",
+      "posted_at": "2026-09-02T17:27",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "cpm",
-        "업뎃내역"
+        "삼팔플슬슬질리네"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T17:17"
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T17:27"
     },
     {
       "site": "arca",
@@ -2096,7 +2235,7 @@
       "title": "젬마 신모델 나오나본데?",
       "url": "https://arca.live/b/characterai/181704458?p=5&mode=best",
       "recommend": 40,
-      "views": 1869,
+      "views": 1903,
       "comments": 44,
       "has_image": true,
       "posted_at": "2026-09-01T20:26",
@@ -2108,7 +2247,7 @@
         "나오나본데"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T20:26"
     },
     {
@@ -2118,7 +2257,7 @@
       "title": "Vertex AI에서 Gemini 3.8 Flash 됨",
       "url": "https://arca.live/b/characterai/181771372?p=4&mode=best",
       "recommend": 40,
-      "views": 2115,
+      "views": 2135,
       "comments": 37,
       "has_image": true,
       "posted_at": "2026-09-02T15:36",
@@ -2136,7 +2275,7 @@
         "flash"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T15:36"
     },
     {
@@ -2144,9 +2283,9 @@
       "post_id": "181832451",
       "source": "아카라이브 AI채팅 채널",
       "title": "Gemini 3.8 Flash 벤치마크",
-      "url": "https://arca.live/b/characterai/181832451?p=2&mode=best",
+      "url": "https://arca.live/b/characterai/181832451?p=3&mode=best",
       "recommend": 40,
-      "views": 2537,
+      "views": 2590,
       "comments": 35,
       "has_image": true,
       "posted_at": "2026-09-03T00:01",
@@ -2162,28 +2301,8 @@
         "벤치마크"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T00:01"
-    },
-    {
-      "site": "arca",
-      "post_id": "181781909",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "삼팔플슬슬질리네",
-      "url": "https://arca.live/b/characterai/181781909?p=3&mode=best",
-      "recommend": 40,
-      "views": 2117,
-      "comments": 16,
-      "has_image": true,
-      "posted_at": "2026-09-02T17:27",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "삼팔플슬슬질리네"
-      ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T17:27"
     },
     {
       "site": "arca",
@@ -2267,7 +2386,7 @@
       "title": "남캐있음)이런 봇 만들고 싶다",
       "url": "https://arca.live/b/characterai/181720170?p=5&mode=best",
       "recommend": 39,
-      "views": 825,
+      "views": 846,
       "comments": 26,
       "has_image": true,
       "posted_at": "2026-09-01T22:59",
@@ -2284,7 +2403,7 @@
         "싶다"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T22:59"
     },
     {
@@ -2292,9 +2411,9 @@
       "post_id": "181768743",
       "source": "아카라이브 AI채팅 채널",
       "title": "@는 신이야!",
-      "url": "https://arca.live/b/characterai/181768743?p=3&mode=best",
+      "url": "https://arca.live/b/characterai/181768743?p=4&mode=best",
       "recommend": 39,
-      "views": 991,
+      "views": 1004,
       "comments": 10,
       "has_image": true,
       "posted_at": "2026-09-02T15:05",
@@ -2304,8 +2423,56 @@
         "신이야"
       ],
       "first_seen": "2026-09-02T17:04:48",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T15:05"
+    },
+    {
+      "site": "arca",
+      "post_id": "181782002",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "삼칠플에서 삼팔플 넘어가면서 특히 체감되는게",
+      "url": "https://arca.live/b/characterai/181782002?p=3&mode=best",
+      "recommend": 39,
+      "views": 2214,
+      "comments": 15,
+      "has_image": true,
+      "posted_at": "2026-09-02T17:28",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "삼칠플",
+        "삼팔플",
+        "넘어가면서",
+        "특히",
+        "체감되는게"
+      ],
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T17:28"
+    },
+    {
+      "site": "arca",
+      "post_id": "181799703",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "아니 잼팔플 왜 잼칠플맛 나지 했는데",
+      "url": "https://arca.live/b/characterai/181799703?p=1&mode=best",
+      "recommend": 39,
+      "views": 1682,
+      "comments": 19,
+      "has_image": true,
+      "posted_at": "2026-09-02T19:48",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "아니",
+        "잼팔플",
+        "잼칠플맛",
+        "나지",
+        "했는데"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T19:48"
     },
     {
       "site": "arca",
@@ -2412,7 +2579,7 @@
       "title": "9월1일의 아침이 밝았다 (미국의)",
       "url": "https://arca.live/b/characterai/181703527?p=5&mode=best",
       "recommend": 38,
-      "views": 1418,
+      "views": 1456,
       "comments": 16,
       "has_image": true,
       "posted_at": "2026-09-01T20:17",
@@ -2425,76 +2592,59 @@
         "미국"
       ],
       "first_seen": "2026-09-01T21:26:38",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T20:17"
     },
     {
       "site": "arca",
-      "post_id": "181782002",
+      "post_id": "181777318",
       "source": "아카라이브 AI채팅 채널",
-      "title": "삼칠플에서 삼팔플 넘어가면서 특히 체감되는게",
-      "url": "https://arca.live/b/characterai/181782002?p=2&mode=best",
+      "title": "속보: 잼삼팔 삼칠시절에 결코 안 뱉어주던 분량 아웃풋 뱉어냄",
+      "url": "https://arca.live/b/characterai/181777318?p=4&mode=best",
       "recommend": 38,
-      "views": 2175,
-      "comments": 15,
+      "views": 2108,
+      "comments": 27,
       "has_image": true,
-      "posted_at": "2026-09-02T17:28",
+      "posted_at": "2026-09-02T16:44",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "삼칠플",
-        "삼팔플",
-        "넘어가면서",
-        "특히",
-        "체감되는게"
+        "속보",
+        "잼삼팔",
+        "삼칠시절",
+        "결코",
+        "뱉어주던",
+        "분량",
+        "아웃풋",
+        "뱉어냄"
       ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T17:28"
+      "first_seen": "2026-09-02T17:04:48",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T16:44"
     },
     {
       "site": "arca",
-      "post_id": "181916334",
+      "post_id": "181928710",
       "source": "아카라이브 AI채팅 채널",
-      "title": "챗붕이 평균 외모 ㄷㄷ",
-      "url": "https://arca.live/b/characterai/181916334?p=1&mode=best",
+      "title": "시골은 재미없어삼팔이,포켓리스 핫픽스 출산",
+      "url": "https://arca.live/b/characterai/181928710?p=1&mode=best",
       "recommend": 38,
-      "views": 1125,
-      "comments": 13,
+      "views": 1188,
+      "comments": 58,
       "has_image": true,
-      "posted_at": "2026-09-03T20:48",
+      "posted_at": "2026-09-03T22:34",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "챗붕",
-        "평균",
-        "외모"
+        "시골",
+        "재미없어삼팔",
+        "포켓리스",
+        "핫픽스",
+        "출산"
       ],
       "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T20:48"
-    },
-    {
-      "site": "arca",
-      "post_id": "181894558",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "저는 AI가 아닙니다",
-      "url": "https://arca.live/b/characterai/181894558?p=1&mode=best",
-      "recommend": 38,
-      "views": 1145,
-      "comments": 28,
-      "has_image": true,
-      "posted_at": "2026-09-03T17:34",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "저는",
-        "ai",
-        "아닙니다"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T17:34"
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T22:34"
     },
     {
       "site": "arca",
@@ -2548,9 +2698,9 @@
       "post_id": "181725510",
       "source": "아카라이브 AI채팅 채널",
       "title": "구글 ai검색 이럴때마다 웃김",
-      "url": "https://arca.live/b/characterai/181725510?p=4&mode=best",
+      "url": "https://arca.live/b/characterai/181725510?p=5&mode=best",
       "recommend": 37,
-      "views": 2050,
+      "views": 2068,
       "comments": 6,
       "has_image": true,
       "posted_at": "2026-09-01T23:56",
@@ -2564,44 +2714,17 @@
         "웃김"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T23:56"
-    },
-    {
-      "site": "arca",
-      "post_id": "181777318",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "속보: 잼삼팔 삼칠시절에 결코 안 뱉어주던 분량 아웃풋 뱉어냄",
-      "url": "https://arca.live/b/characterai/181777318?p=3&mode=best",
-      "recommend": 37,
-      "views": 2082,
-      "comments": 27,
-      "has_image": true,
-      "posted_at": "2026-09-02T16:44",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "속보",
-        "잼삼팔",
-        "삼칠시절",
-        "결코",
-        "뱉어주던",
-        "분량",
-        "아웃풋",
-        "뱉어냄"
-      ],
-      "first_seen": "2026-09-02T17:04:48",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T16:44"
     },
     {
       "site": "arca",
       "post_id": "181837517",
       "source": "아카라이브 AI채팅 채널",
       "title": "Gemini 3.8 Flash 및 3.8 Flash Cyber 소개",
-      "url": "https://arca.live/b/characterai/181837517?p=2&mode=best",
+      "url": "https://arca.live/b/characterai/181837517?p=3&mode=best",
       "recommend": 37,
-      "views": 3253,
+      "views": 3345,
       "comments": 34,
       "has_image": true,
       "posted_at": "2026-09-03T00:55",
@@ -2619,7 +2742,7 @@
         "소개"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T00:55"
     },
     {
@@ -2627,9 +2750,9 @@
       "post_id": "181827697",
       "source": "아카라이브 AI채팅 채널",
       "title": "잼삼팔 삭제",
-      "url": "https://arca.live/b/characterai/181827697?p=2&mode=best",
+      "url": "https://arca.live/b/characterai/181827697?p=3&mode=best",
       "recommend": 37,
-      "views": 3674,
+      "views": 3739,
       "comments": 55,
       "has_image": true,
       "posted_at": "2026-09-02T23:17",
@@ -2640,17 +2763,45 @@
         "삭제"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T23:17"
+    },
+    {
+      "site": "arca",
+      "post_id": "181796652",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "덕텦 이미지성능 존나 웃기네 ㅋㅋㅋㅋㅋㅋㅋ",
+      "url": "https://arca.live/b/characterai/181796652?p=3&mode=best",
+      "recommend": 37,
+      "views": 1678,
+      "comments": 14,
+      "has_image": true,
+      "posted_at": "2026-09-02T19:24",
+      "keyword_hits": [
+        {
+          "group": "demand_pain",
+          "word": "성능"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "덕텦",
+        "이미지성능",
+        "존나",
+        "웃기네"
+      ],
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T19:24"
     },
     {
       "site": "arca",
       "post_id": "181784537",
       "source": "아카라이브 AI채팅 채널",
       "title": "그러니까 잼삼팔플 검열은 체리파이라고?",
-      "url": "https://arca.live/b/characterai/181784537?p=3&mode=best",
+      "url": "https://arca.live/b/characterai/181784537?p=4&mode=best",
       "recommend": 37,
-      "views": 2060,
+      "views": 2096,
       "comments": 8,
       "has_image": true,
       "posted_at": "2026-09-02T17:48",
@@ -2667,8 +2818,31 @@
         "체리파"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T17:48"
+    },
+    {
+      "site": "arca",
+      "post_id": "181885031",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "스니커즈,AI용 초콜릿 바 출시",
+      "url": "https://arca.live/b/characterai/181885031?p=2&mode=best",
+      "recommend": 37,
+      "views": 1092,
+      "comments": 15,
+      "has_image": true,
+      "posted_at": "2026-09-03T15:52",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "스니커즈",
+        "ai",
+        "초콜릿",
+        "출시"
+      ],
+      "first_seen": "2026-09-03T17:24:56",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T15:52"
     },
     {
       "site": "arca",
@@ -2748,9 +2922,9 @@
       "post_id": "181736810",
       "source": "아카라이브 AI채팅 채널",
       "title": "오랜만에 영상ai feel받고 끄적여봄",
-      "url": "https://arca.live/b/characterai/181736810?p=4&mode=best",
+      "url": "https://arca.live/b/characterai/181736810?p=5&mode=best",
       "recommend": 36,
-      "views": 1104,
+      "views": 1117,
       "comments": 11,
       "has_image": true,
       "posted_at": "2026-09-02T03:26",
@@ -2765,7 +2939,7 @@
         "끄적여봄"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T03:26"
     },
     {
@@ -2775,7 +2949,7 @@
       "title": "내가 좋아하는 요소만 넣었어",
       "url": "https://arca.live/b/characterai/181715820?p=5&mode=best",
       "recommend": 36,
-      "views": 1293,
+      "views": 1326,
       "comments": 23,
       "has_image": true,
       "posted_at": "2026-09-01T22:16",
@@ -2788,59 +2962,32 @@
         "넣었어"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T22:16"
     },
     {
       "site": "arca",
-      "post_id": "181796652",
+      "post_id": "181825025",
       "source": "아카라이브 AI채팅 채널",
-      "title": "덕텦 이미지성능 존나 웃기네 ㅋㅋㅋㅋㅋㅋㅋ",
-      "url": "https://arca.live/b/characterai/181796652?p=3&mode=best",
+      "title": "삼팔이 한국어 테스트 \"판소리 돈키호테전\"",
+      "url": "https://arca.live/b/characterai/181825025?p=3&mode=best",
       "recommend": 36,
-      "views": 1665,
-      "comments": 14,
+      "views": 1225,
+      "comments": 26,
       "has_image": true,
-      "posted_at": "2026-09-02T19:24",
-      "keyword_hits": [
-        {
-          "group": "demand_pain",
-          "word": "성능"
-        }
-      ],
-      "is_meme_candidate": true,
-      "tokens": [
-        "덕텦",
-        "이미지성능",
-        "존나",
-        "웃기네"
-      ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T19:24"
-    },
-    {
-      "site": "arca",
-      "post_id": "181885031",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "스니커즈,AI용 초콜릿 바 출시",
-      "url": "https://arca.live/b/characterai/181885031?p=1&mode=best",
-      "recommend": 36,
-      "views": 1014,
-      "comments": 15,
-      "has_image": true,
-      "posted_at": "2026-09-03T15:52",
+      "posted_at": "2026-09-02T22:54",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "스니커즈",
-        "ai",
-        "초콜릿",
-        "출시"
+        "삼팔",
+        "한국어",
+        "테스트",
+        "판소리",
+        "돈키호테전"
       ],
-      "first_seen": "2026-09-03T17:24:56",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T15:52"
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T22:54"
     },
     {
       "site": "arca",
@@ -2898,27 +3045,85 @@
     },
     {
       "site": "arca",
-      "post_id": "181825025",
+      "post_id": "181927144",
       "source": "아카라이브 AI채팅 채널",
-      "title": "삼팔이 한국어 테스트 \"판소리 돈키호테전\"",
-      "url": "https://arca.live/b/characterai/181825025?p=2&mode=best",
+      "title": "누렁이 Gemini nightly 패치",
+      "url": "https://arca.live/b/characterai/181927144?p=1&mode=best",
       "recommend": 35,
-      "views": 1197,
-      "comments": 26,
+      "views": 1005,
+      "comments": 9,
       "has_image": true,
-      "posted_at": "2026-09-02T22:54",
+      "posted_at": "2026-09-03T22:20",
+      "keyword_hits": [
+        {
+          "group": "terms",
+          "word": "gemini"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "누렁",
+        "nightly",
+        "패치"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T22:20"
+    },
+    {
+      "site": "arca",
+      "post_id": "181896043",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "팩트는 GPT6가 9월 7일 전에 반드시 나온다는 거임",
+      "url": "https://arca.live/b/characterai/181896043?p=2&mode=best",
+      "recommend": 35,
+      "views": 1091,
+      "comments": 18,
+      "has_image": true,
+      "posted_at": "2026-09-03T17:50",
+      "keyword_hits": [
+        {
+          "group": "terms",
+          "word": "gpt"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "팩트",
+        "gpt6",
+        "전에",
+        "반드시",
+        "나온다",
+        "거임"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T17:50"
+    },
+    {
+      "site": "arca",
+      "post_id": "181942559",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "남캐 자꾸보추처럼 뽑는거 빡쳐서 Gigachad 넣었는데",
+      "url": "https://arca.live/b/characterai/181942559?p=1&mode=best",
+      "recommend": 35,
+      "views": 1015,
+      "comments": 16,
+      "has_image": true,
+      "posted_at": "2026-09-04T00:58",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "삼팔",
-        "한국어",
-        "테스트",
-        "판소리",
-        "돈키호테전"
+        "남캐",
+        "자꾸보추처럼",
+        "뽑는거",
+        "빡쳐서",
+        "gigachad",
+        "넣었는데"
       ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T22:54"
+      "first_seen": "2026-09-04T08:26:57",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-04T00:58"
     },
     {
       "site": "arca",
@@ -2927,7 +3132,7 @@
       "title": "만들고 있는 플로그인",
       "url": "https://arca.live/b/characterai/181697043?p=5&mode=best",
       "recommend": 34,
-      "views": 985,
+      "views": 1018,
       "comments": 39,
       "has_image": true,
       "posted_at": "2026-09-01T19:17",
@@ -2943,7 +3148,7 @@
         "플로그인"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T19:17"
     },
     {
@@ -3109,7 +3314,7 @@
       "title": "으윽 챗산그림체 너무 좋다",
       "url": "https://arca.live/b/characterai/181709311?p=5&mode=best",
       "recommend": 34,
-      "views": 1530,
+      "views": 1564,
       "comments": 30,
       "has_image": true,
       "posted_at": "2026-09-01T21:13",
@@ -3121,8 +3326,30 @@
         "좋다"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T21:13"
+    },
+    {
+      "site": "arca",
+      "post_id": "181776594",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "하율이 체육복 업뎃",
+      "url": "https://arca.live/b/characterai/181776594?p=4&mode=best",
+      "recommend": 34,
+      "views": 877,
+      "comments": 23,
+      "has_image": true,
+      "posted_at": "2026-09-02T16:35",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "하율",
+        "체육복",
+        "업뎃"
+      ],
+      "first_seen": "2026-09-02T17:04:48",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T16:35"
     },
     {
       "site": "arca",
@@ -3157,7 +3384,7 @@
       "title": "2023년에는 영어 대신 한국어를 쓰면 필터 검열이 뚫렸음",
       "url": "https://arca.live/b/characterai/181750972?p=4&mode=best",
       "recommend": 33,
-      "views": 1992,
+      "views": 2020,
       "comments": 20,
       "has_image": true,
       "posted_at": "2026-09-02T11:12",
@@ -3178,77 +3405,8 @@
         "뚫렸음"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T11:12"
-    },
-    {
-      "site": "arca",
-      "post_id": "181776594",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "하율이 체육복 업뎃",
-      "url": "https://arca.live/b/characterai/181776594?p=4&mode=best",
-      "recommend": 33,
-      "views": 862,
-      "comments": 23,
-      "has_image": true,
-      "posted_at": "2026-09-02T16:35",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "하율",
-        "체육복",
-        "업뎃"
-      ],
-      "first_seen": "2026-09-02T17:04:48",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T16:35"
-    },
-    {
-      "site": "arca",
-      "post_id": "181928710",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "시골은 재미없어삼팔이 핫픽스 출산",
-      "url": "https://arca.live/b/characterai/181928710?p=1&mode=best",
-      "recommend": 33,
-      "views": 792,
-      "comments": 55,
-      "has_image": true,
-      "posted_at": "2026-09-03T22:34",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "시골",
-        "재미없어삼팔",
-        "핫픽스",
-        "출산"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T22:34"
-    },
-    {
-      "site": "arca",
-      "post_id": "181799703",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "아니 잼팔플 왜 잼칠플맛 나지 했는데",
-      "url": "https://arca.live/b/characterai/181799703?p=1&mode=best",
-      "recommend": 33,
-      "views": 1321,
-      "comments": 19,
-      "has_image": true,
-      "posted_at": "2026-09-02T19:48",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "아니",
-        "잼팔플",
-        "잼칠플맛",
-        "나지",
-        "했는데"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T19:48"
     },
     {
       "site": "arca",
@@ -3314,9 +3472,9 @@
       "post_id": "181735901",
       "source": "아카라이브 AI채팅 채널",
       "title": "페이블 5.1 출시",
-      "url": "https://arca.live/b/characterai/181735901?p=4&mode=best",
+      "url": "https://arca.live/b/characterai/181735901?p=5&mode=best",
       "recommend": 32,
-      "views": 1862,
+      "views": 1878,
       "comments": 16,
       "has_image": true,
       "posted_at": "2026-09-02T02:52",
@@ -3327,7 +3485,7 @@
         "출시"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T02:52"
     },
     {
@@ -3392,7 +3550,7 @@
       "title": "[] 간단 상태창 모듈 3.5 업데이트했음.",
       "url": "https://arca.live/b/characterai/181759728?p=4&mode=best",
       "recommend": 31,
-      "views": 626,
+      "views": 630,
       "comments": 41,
       "has_image": true,
       "posted_at": "2026-09-02T13:08",
@@ -3409,7 +3567,7 @@
         "업데이트했음"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T13:08"
     },
     {
@@ -3444,7 +3602,7 @@
       "title": "페이블 5.1 AI 중간고사벤치",
       "url": "https://arca.live/b/characterai/181768068?p=4&mode=best",
       "recommend": 30,
-      "views": 835,
+      "views": 848,
       "comments": 13,
       "has_image": true,
       "posted_at": "2026-09-02T14:57",
@@ -3456,7 +3614,7 @@
         "중간고사벤치"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T14:57"
     },
     {
@@ -3464,9 +3622,9 @@
       "post_id": "181830825",
       "source": "아카라이브 AI채팅 채널",
       "title": "방금 Gemini API (AI Studio)에도 Gemini 3.8 Flash 추가됨",
-      "url": "https://arca.live/b/characterai/181830825?p=2&mode=best",
+      "url": "https://arca.live/b/characterai/181830825?p=3&mode=best",
       "recommend": 30,
-      "views": 1594,
+      "views": 1618,
       "comments": 24,
       "has_image": true,
       "posted_at": "2026-09-02T23:46",
@@ -3490,38 +3648,8 @@
         "추가됨"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T23:46"
-    },
-    {
-      "site": "arca",
-      "post_id": "181896043",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "팩트는 GPT6가 9월 7일 전에 반드시 나온다는 거임",
-      "url": "https://arca.live/b/characterai/181896043?p=1&mode=best",
-      "recommend": 30,
-      "views": 962,
-      "comments": 17,
-      "has_image": true,
-      "posted_at": "2026-09-03T17:50",
-      "keyword_hits": [
-        {
-          "group": "terms",
-          "word": "gpt"
-        }
-      ],
-      "is_meme_candidate": true,
-      "tokens": [
-        "팩트",
-        "gpt6",
-        "전에",
-        "반드시",
-        "나온다",
-        "거임"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T17:50"
     },
     {
       "site": "arca",
@@ -3646,30 +3774,32 @@
     },
     {
       "site": "arca",
-      "post_id": "181927144",
+      "post_id": "181798481",
       "source": "아카라이브 AI채팅 채널",
-      "title": "누렁이 Gemini nightly 패치",
-      "url": "https://arca.live/b/characterai/181927144?p=1&mode=best",
+      "title": "파리스와 황금사과 3여신 문제 공홈삼칠플이랑 숙고한 결과 최선 루트 찾아냄",
+      "url": "https://arca.live/b/characterai/181798481?p=3&mode=best",
       "recommend": 29,
-      "views": 670,
-      "comments": 6,
+      "views": 889,
+      "comments": 10,
       "has_image": true,
-      "posted_at": "2026-09-03T22:20",
-      "keyword_hits": [
-        {
-          "group": "terms",
-          "word": "gemini"
-        }
-      ],
-      "is_meme_candidate": true,
+      "posted_at": "2026-09-02T19:38",
+      "keyword_hits": [],
+      "is_meme_candidate": false,
       "tokens": [
-        "누렁",
-        "nightly",
-        "패치"
+        "파리스",
+        "황금사",
+        "여신",
+        "문제",
+        "공홈삼칠플이랑",
+        "숙고한",
+        "결과",
+        "최선",
+        "루트",
+        "찾아냄"
       ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T22:20"
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T19:38"
     },
     {
       "site": "arca",
@@ -3699,9 +3829,9 @@
       "post_id": "181681824",
       "source": "아카라이브 AI채팅 채널",
       "title": "이졸데 DLC: 사람이 된 에레메트루다",
-      "url": "https://arca.live/b/characterai/181681824?p=4&mode=best",
+      "url": "https://arca.live/b/characterai/181681824?p=5&mode=best",
       "recommend": 28,
-      "views": 838,
+      "views": 861,
       "comments": 43,
       "has_image": true,
       "posted_at": "2026-09-01T16:40",
@@ -3714,37 +3844,8 @@
         "에레메트루다"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T16:40"
-    },
-    {
-      "site": "arca",
-      "post_id": "181798481",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "파리스와 황금사과 3여신 문제 공홈삼칠플이랑 숙고한 결과 최선 루트 찾아냄",
-      "url": "https://arca.live/b/characterai/181798481?p=3&mode=best",
-      "recommend": 28,
-      "views": 882,
-      "comments": 10,
-      "has_image": true,
-      "posted_at": "2026-09-02T19:38",
-      "keyword_hits": [],
-      "is_meme_candidate": false,
-      "tokens": [
-        "파리스",
-        "황금사",
-        "여신",
-        "문제",
-        "공홈삼칠플이랑",
-        "숙고한",
-        "결과",
-        "최선",
-        "루트",
-        "찾아냄"
-      ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T19:38"
     },
     {
       "site": "arca",
@@ -3774,7 +3875,7 @@
       "title": "봇 제작 뻘글",
       "url": "https://arca.live/b/characterai/181705141?p=5&mode=best",
       "recommend": 27,
-      "views": 887,
+      "views": 908,
       "comments": 44,
       "has_image": true,
       "posted_at": "2026-09-01T20:33",
@@ -3790,7 +3891,7 @@
         "뻘글"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T20:33"
     },
     {
@@ -3800,7 +3901,7 @@
       "title": "TS 동거녀 신진아 살짝 업뎃",
       "url": "https://arca.live/b/characterai/181837184?p=2&mode=best",
       "recommend": 27,
-      "views": 879,
+      "views": 909,
       "comments": 10,
       "has_image": true,
       "posted_at": "2026-09-03T00:51",
@@ -3814,17 +3915,45 @@
         "업뎃"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T00:51"
+    },
+    {
+      "site": "arca",
+      "post_id": "181789763",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "아니 삼팔플 뭔 계속 검열만하네",
+      "url": "https://arca.live/b/characterai/181789763?p=3&mode=best",
+      "recommend": 27,
+      "views": 2009,
+      "comments": 8,
+      "has_image": true,
+      "posted_at": "2026-09-02T18:29",
+      "keyword_hits": [
+        {
+          "group": "demand_pain",
+          "word": "검열"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "아니",
+        "삼팔플",
+        "계속",
+        "검열만하네"
+      ],
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T18:29"
     },
     {
       "site": "arca",
       "post_id": "181787302",
       "source": "아카라이브 AI채팅 채널",
       "title": "게웨 삼팔플 뜸",
-      "url": "https://arca.live/b/characterai/181787302?p=3&mode=best",
+      "url": "https://arca.live/b/characterai/181787302?p=4&mode=best",
       "recommend": 27,
-      "views": 1476,
+      "views": 1498,
       "comments": 17,
       "has_image": true,
       "posted_at": "2026-09-02T18:09",
@@ -3835,7 +3964,7 @@
         "삼팔플"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T18:09"
     },
     {
@@ -3888,31 +4017,52 @@
     },
     {
       "site": "arca",
-      "post_id": "181789763",
+      "post_id": "181760447",
       "source": "아카라이브 AI채팅 채널",
-      "title": "아니 삼팔플 뭔 계속 검열만하네",
-      "url": "https://arca.live/b/characterai/181789763?p=3&mode=best",
+      "title": "딥식, 내가 쓰는 사고유도추론 최종",
+      "url": "https://arca.live/b/characterai/181760447?p=3&mode=best",
       "recommend": 26,
-      "views": 1990,
-      "comments": 8,
+      "views": 678,
+      "comments": 20,
       "has_image": true,
-      "posted_at": "2026-09-02T18:29",
-      "keyword_hits": [
-        {
-          "group": "demand_pain",
-          "word": "검열"
-        }
-      ],
+      "posted_at": "2026-09-02T13:17",
+      "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "아니",
-        "삼팔플",
-        "계속",
-        "검열만하네"
+        "딥식",
+        "내가",
+        "쓰는",
+        "사고유도추론",
+        "최종"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T18:29"
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T13:17"
+    },
+    {
+      "site": "arca",
+      "post_id": "181790206",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "(근황) 하야쿠랑 플래시백 업데이트 확 느려진 이유",
+      "url": "https://arca.live/b/characterai/181790206?p=3&mode=best",
+      "recommend": 26,
+      "views": 855,
+      "comments": 37,
+      "has_image": true,
+      "posted_at": "2026-09-02T18:33",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "근황",
+        "하야쿠랑",
+        "플래시백",
+        "업데이트",
+        "느려진",
+        "이유"
+      ],
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T18:33"
     },
     {
       "site": "arca",
@@ -3972,7 +4122,7 @@
       "title": "Gemini 3.8 flash 공앱에 떴나",
       "url": "https://arca.live/b/characterai/181757732?p=4&mode=best",
       "recommend": 25,
-      "views": 1954,
+      "views": 1964,
       "comments": 17,
       "has_image": true,
       "posted_at": "2026-09-02T12:45",
@@ -3989,32 +4139,8 @@
         "떴나"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T12:45"
-    },
-    {
-      "site": "arca",
-      "post_id": "181760447",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "딥식, 내가 쓰는 사고유도추론 최종",
-      "url": "https://arca.live/b/characterai/181760447?p=3&mode=best",
-      "recommend": 25,
-      "views": 653,
-      "comments": 20,
-      "has_image": true,
-      "posted_at": "2026-09-02T13:17",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "딥식",
-        "내가",
-        "쓰는",
-        "사고유도추론",
-        "최종"
-      ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T13:17"
     },
     {
       "site": "arca",
@@ -4023,7 +4149,7 @@
       "title": "내가 제일 싫은 검열은 키워드 검열쪽 방향임",
       "url": "https://arca.live/b/characterai/181783973?p=3&mode=best",
       "recommend": 25,
-      "views": 1421,
+      "views": 1441,
       "comments": 6,
       "has_image": true,
       "posted_at": "2026-09-02T17:44",
@@ -4043,8 +4169,36 @@
         "방향임"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T17:44"
+    },
+    {
+      "site": "arca",
+      "post_id": "181938175",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "ChatGPT: 별들이 거의 정렬되었다",
+      "url": "https://arca.live/b/characterai/181938175?p=1&mode=best",
+      "recommend": 25,
+      "views": 1706,
+      "comments": 17,
+      "has_image": true,
+      "posted_at": "2026-09-04T00:07",
+      "keyword_hits": [
+        {
+          "group": "terms",
+          "word": "gpt"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "chatgpt",
+        "별들",
+        "거의",
+        "정렬되었다"
+      ],
+      "first_seen": "2026-09-04T08:26:57",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-04T00:07"
     },
     {
       "site": "arca",
@@ -4110,28 +4264,118 @@
     },
     {
       "site": "arca",
-      "post_id": "181790206",
+      "post_id": "181915823",
       "source": "아카라이브 AI채팅 채널",
-      "title": "(근황) 하야쿠랑 플래시백 업데이트 확 느려진 이유",
-      "url": "https://arca.live/b/characterai/181790206?p=3&mode=best",
+      "title": "등장인물 대충 다 정했다",
+      "url": "https://arca.live/b/characterai/181915823?p=1&mode=best",
       "recommend": 24,
-      "views": 831,
-      "comments": 37,
+      "views": 969,
+      "comments": 28,
       "has_image": true,
-      "posted_at": "2026-09-02T18:33",
+      "posted_at": "2026-09-03T20:45",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "근황",
-        "하야쿠랑",
-        "플래시백",
-        "업데이트",
-        "느려진",
-        "이유"
+        "등장인물",
+        "대충",
+        "정했다"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T20:45"
+    },
+    {
+      "site": "arca",
+      "post_id": "181766164",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "전투원화 개조 시뮬레이터 1.45버전 마이너 패치",
+      "url": "https://arca.live/b/characterai/181766164?p=4&mode=best",
+      "recommend": 23,
+      "views": 677,
+      "comments": 8,
+      "has_image": true,
+      "posted_at": "2026-09-02T14:32",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "전투원화",
+        "개조",
+        "시뮬레이터",
+        "버전",
+        "마이너",
+        "패치"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T18:33"
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T14:32"
+    },
+    {
+      "site": "arca",
+      "post_id": "181937777",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "@OpenAI : A6TRA",
+      "url": "https://arca.live/b/characterai/181937777?p=1&mode=best",
+      "recommend": 23,
+      "views": 1378,
+      "comments": 23,
+      "has_image": true,
+      "posted_at": "2026-09-04T00:04",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "openai",
+        "a6tra"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-04T00:04"
+    },
+    {
+      "site": "arca",
+      "post_id": "181833722",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "제작자 공인 현아의 새 그림체 (v5용)",
+      "url": "https://arca.live/b/characterai/181833722?p=1&mode=best",
+      "recommend": 23,
+      "views": 806,
+      "comments": 28,
+      "has_image": true,
+      "posted_at": "2026-09-03T00:13",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "제작자",
+        "공인",
+        "현아",
+        "그림체",
+        "v5"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T00:13"
+    },
+    {
+      "site": "arca",
+      "post_id": "181922031",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "아마라한테 얀데레를 붙여주니 행복해보인다",
+      "url": "https://arca.live/b/characterai/181922031?p=1&mode=best",
+      "recommend": 23,
+      "views": 851,
+      "comments": 42,
+      "has_image": true,
+      "posted_at": "2026-09-03T21:35",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "아마라",
+        "얀데레",
+        "붙여주니",
+        "행복해보인다"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T21:35"
     },
     {
       "site": "arca",
@@ -4213,28 +4457,28 @@
     },
     {
       "site": "arca",
-      "post_id": "181766164",
+      "post_id": "181881209",
       "source": "아카라이브 AI채팅 채널",
-      "title": "전투원화 개조 시뮬레이터 1.45버전 마이너 패치",
-      "url": "https://arca.live/b/characterai/181766164?p=3&mode=best",
+      "title": ",? 암컷단, 수컷단 원하는 NSFW 에셋 말해주세요.",
+      "url": "https://arca.live/b/characterai/181881209?p=2&mode=best",
       "recommend": 22,
-      "views": 654,
-      "comments": 8,
+      "views": 1148,
+      "comments": 51,
       "has_image": true,
-      "posted_at": "2026-09-02T14:32",
+      "posted_at": "2026-09-03T15:09",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "전투원화",
-        "개조",
-        "시뮬레이터",
-        "버전",
-        "마이너",
-        "패치"
+        "암컷단",
+        "수컷단",
+        "원하",
+        "nsfw",
+        "에셋",
+        "말해주세요"
       ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T14:32"
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T15:09"
     },
     {
       "site": "arca",
@@ -4243,7 +4487,7 @@
       "title": "퍼메선택기",
       "url": "https://arca.live/b/characterai/181701300?p=5&mode=best",
       "recommend": 21,
-      "views": 570,
+      "views": 606,
       "comments": 7,
       "has_image": true,
       "posted_at": "2026-09-01T19:55",
@@ -4253,7 +4497,7 @@
         "퍼메선택기"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T19:55"
     },
     {
@@ -4314,8 +4558,8 @@
       "title": "얼헌 비공식 DLC '더 많은 복장' 모듈 업데이트",
       "url": "https://arca.live/b/characterai/181699255?p=2&mode=best",
       "recommend": 21,
-      "views": 700,
-      "comments": 12,
+      "views": 748,
+      "comments": 19,
       "has_image": true,
       "posted_at": "2026-09-01T19:38",
       "keyword_hits": [],
@@ -4330,78 +4574,8 @@
         "업데이트"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T19:38"
-    },
-    {
-      "site": "arca",
-      "post_id": "181915823",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "등장인물 대충 다 정했다",
-      "url": "https://arca.live/b/characterai/181915823?p=1&mode=best",
-      "recommend": 21,
-      "views": 672,
-      "comments": 27,
-      "has_image": true,
-      "posted_at": "2026-09-03T20:45",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "등장인물",
-        "대충",
-        "정했다"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T20:45"
-    },
-    {
-      "site": "arca",
-      "post_id": "181922031",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "아마라한테 얀데레를 붙여주니 행복해보인다",
-      "url": "https://arca.live/b/characterai/181922031?p=1&mode=best",
-      "recommend": 21,
-      "views": 645,
-      "comments": 40,
-      "has_image": true,
-      "posted_at": "2026-09-03T21:35",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "아마라",
-        "얀데레",
-        "붙여주니",
-        "행복해보인다"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T21:35"
-    },
-    {
-      "site": "arca",
-      "post_id": "181881209",
-      "source": "아카라이브 AI채팅 채널",
-      "title": ",? 암컷단, 수컷단 원하는 NSFW 에셋 말해주세요.",
-      "url": "https://arca.live/b/characterai/181881209?p=1&mode=best",
-      "recommend": 21,
-      "views": 1025,
-      "comments": 51,
-      "has_image": true,
-      "posted_at": "2026-09-03T15:09",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "암컷단",
-        "수컷단",
-        "원하",
-        "nsfw",
-        "에셋",
-        "말해주세요"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T15:09"
     },
     {
       "site": "arca",
@@ -4430,9 +4604,9 @@
       "post_id": "181664699",
       "source": "아카라이브 AI채팅 채널",
       "title": "[올리비아 케노비] 개쳐뜬금없이 꼴려서 만드는 봇",
-      "url": "https://arca.live/b/characterai/181664699?p=4&mode=best",
+      "url": "https://arca.live/b/characterai/181664699?p=5&mode=best",
       "recommend": 20,
-      "views": 818,
+      "views": 831,
       "comments": 29,
       "has_image": true,
       "posted_at": "2026-09-01T12:58",
@@ -4451,7 +4625,7 @@
         "만드"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T12:58"
     },
     {
@@ -4480,9 +4654,9 @@
       "post_id": "181804847",
       "source": "아카라이브 AI채팅 채널",
       "title": "Mask 프로바이더 핫픽스",
-      "url": "https://arca.live/b/characterai/181804847?p=2&mode=best",
+      "url": "https://arca.live/b/characterai/181804847?p=3&mode=best",
       "recommend": 19,
-      "views": 729,
+      "views": 752,
       "comments": 14,
       "has_image": true,
       "posted_at": "2026-09-02T20:27",
@@ -4494,7 +4668,7 @@
         "핫픽스"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T20:27"
     },
     {
@@ -4502,9 +4676,9 @@
       "post_id": "181551071",
       "source": "아카라이브 AI채팅 채널",
       "title": "pdf 인풋 사용시 출력물에 줄바꿈이 없을때",
-      "url": "https://arca.live/b/characterai/181551071?p=4&mode=best",
+      "url": "https://arca.live/b/characterai/181551071?p=5&mode=best",
       "recommend": 18,
-      "views": 1132,
+      "views": 1142,
       "comments": 8,
       "has_image": true,
       "posted_at": "2026-08-31T04:57",
@@ -4519,8 +4693,82 @@
         "없을때"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-31T04:57"
+    },
+    {
+      "site": "arca",
+      "post_id": "181769679",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "페메 프롬프트 v4.0.0 (Nightly)",
+      "url": "https://arca.live/b/characterai/181769679?p=1&mode=best",
+      "recommend": 18,
+      "views": 640,
+      "comments": 34,
+      "has_image": true,
+      "posted_at": "2026-09-02T15:16",
+      "keyword_hits": [
+        {
+          "group": "terms",
+          "word": "프롬프트"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "페메",
+        "v4",
+        "nightly"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T15:16"
+    },
+    {
+      "site": "arca",
+      "post_id": "181954316",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "일단 아스트라 호감인점",
+      "url": "https://arca.live/b/characterai/181954316?p=1&mode=best",
+      "recommend": 18,
+      "views": 511,
+      "comments": 16,
+      "has_image": true,
+      "posted_at": "2026-09-04T07:56",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "일단",
+        "아스트라",
+        "호감인점"
+      ],
+      "first_seen": "2026-09-04T08:26:57",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-04T07:56"
+    },
+    {
+      "site": "arca",
+      "post_id": "181949939",
+      "source": "아카라이브 AI채팅 채널",
+      "title": "드디어 남의 정보 다알아 문제가 개선됐네",
+      "url": "https://arca.live/b/characterai/181949939?p=1&mode=best",
+      "recommend": 18,
+      "views": 603,
+      "comments": 7,
+      "has_image": true,
+      "posted_at": "2026-09-04T03:57",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "드디어",
+        "남의",
+        "정보",
+        "다알아",
+        "문제",
+        "개선됐네"
+      ],
+      "first_seen": "2026-09-04T08:26:57",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-04T03:57"
     },
     {
       "site": "arca",
@@ -4576,7 +4824,7 @@
       "title": "WygLore Leaf - 3.0.16 Release Note & FAQ",
       "url": "https://arca.live/b/characterai/181783562?p=2&mode=best",
       "recommend": 17,
-      "views": 575,
+      "views": 595,
       "comments": 18,
       "has_image": true,
       "posted_at": "2026-09-02T17:41",
@@ -4590,32 +4838,8 @@
         "faq"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T17:41"
-    },
-    {
-      "site": "arca",
-      "post_id": "181833722",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "제작자 공인 현아의 새 그림체 (v5용)",
-      "url": "https://arca.live/b/characterai/181833722?p=1&mode=best",
-      "recommend": 17,
-      "views": 551,
-      "comments": 22,
-      "has_image": true,
-      "posted_at": "2026-09-03T00:13",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "제작자",
-        "공인",
-        "현아",
-        "그림체",
-        "v5"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T00:13"
     },
     {
       "site": "arca",
@@ -4641,44 +4865,17 @@
     },
     {
       "site": "arca",
-      "post_id": "181769679",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "페메 프롬프트 v4.0.0 (Nightly)",
-      "url": "https://arca.live/b/characterai/181769679?p=1&mode=best",
-      "recommend": 15,
-      "views": 442,
-      "comments": 22,
-      "has_image": true,
-      "posted_at": "2026-09-02T15:16",
-      "keyword_hits": [
-        {
-          "group": "terms",
-          "word": "프롬프트"
-        }
-      ],
-      "is_meme_candidate": true,
-      "tokens": [
-        "페메",
-        "v4",
-        "nightly"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T15:16"
-    },
-    {
-      "site": "arca",
       "post_id": "181891449",
       "source": "아카라이브 AI채팅 채널",
       "title": "WygLore Leaf - 3.0.17 Release Note & FAQ",
-      "url": "https://arca.live/b/characterai/181891449?p=1&mode=best",
-      "recommend": 14,
-      "views": 404,
-      "comments": 4,
+      "url": "https://arca.live/b/characterai/181891449?p=2&mode=best",
+      "recommend": 16,
+      "views": 490,
+      "comments": 6,
       "has_image": true,
       "posted_at": "2026-09-03T17:00",
       "keyword_hits": [],
-      "is_meme_candidate": false,
+      "is_meme_candidate": true,
       "tokens": [
         "wyglore",
         "leaf",
@@ -4687,29 +4884,8 @@
         "faq"
       ],
       "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T17:00"
-    },
-    {
-      "site": "arca",
-      "post_id": "181937777",
-      "source": "아카라이브 AI채팅 채널",
-      "title": "@OpenAI : A6TRA",
-      "url": "https://arca.live/b/characterai/181937777?p=1&mode=best",
-      "recommend": 13,
-      "views": 218,
-      "comments": 12,
-      "has_image": true,
-      "posted_at": "2026-09-04T00:04",
-      "keyword_hits": [],
-      "is_meme_candidate": false,
-      "tokens": [
-        "openai",
-        "a6tra"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-04T00:04"
     },
     {
       "site": "dcinside",
@@ -4860,7 +5036,7 @@
       "title": "케이브덕 통짜프롬 (로어북, 위젯 포함)",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374624&exception_mode=recommend&page=2",
       "recommend": 68,
-      "views": 2108,
+      "views": 2117,
       "comments": 8,
       "has_image": true,
       "posted_at": "2026-08-28T18:55",
@@ -4881,7 +5057,7 @@
         "포함"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-28T18:55"
     },
     {
@@ -4890,8 +5066,8 @@
       "source": "디시 AI채팅 갤러리",
       "title": "개덕",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375751&exception_mode=recommend&page=1",
-      "recommend": 62,
-      "views": 1227,
+      "recommend": 65,
+      "views": 1286,
       "comments": 31,
       "has_image": true,
       "posted_at": "2026-09-03T00:37",
@@ -4901,7 +5077,7 @@
         "개덕"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T00:37"
     },
     {
@@ -4911,7 +5087,7 @@
       "title": "케덕 리뷰 이벤트 한번도 안했으면 개추",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375476&exception_mode=recommend&page=1",
       "recommend": 61,
-      "views": 951,
+      "views": 962,
       "comments": 10,
       "has_image": true,
       "posted_at": "2026-09-01T21:43",
@@ -4930,7 +5106,7 @@
         "개추"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T21:43"
     },
     {
@@ -4961,8 +5137,8 @@
       "source": "디시 AI채팅 갤러리",
       "title": "아... 할만한 서사가 없네... 페소 내림이 안 오네...",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375375&exception_mode=recommend&page=1",
-      "recommend": 53,
-      "views": 1159,
+      "recommend": 54,
+      "views": 1168,
       "comments": 15,
       "has_image": true,
       "posted_at": "2026-09-01T12:22",
@@ -4977,7 +5153,7 @@
         "오네"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T12:22"
     },
     {
@@ -5033,8 +5209,8 @@
       "source": "디시 AI채팅 갤러리",
       "title": "우리도 ㅈㅌ처럼 케 패자 뒤지게",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375767&exception_mode=recommend&page=1",
-      "recommend": 47,
-      "views": 1142,
+      "recommend": 49,
+      "views": 1216,
       "comments": 10,
       "has_image": true,
       "posted_at": "2026-09-03T01:57",
@@ -5046,7 +5222,7 @@
         "뒤지게"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T01:57"
     },
     {
@@ -5111,7 +5287,7 @@
       "title": "유동 유입들아 할 말이 있어",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375640&exception_mode=recommend&page=1",
       "recommend": 45,
-      "views": 1165,
+      "views": 1202,
       "comments": 12,
       "has_image": true,
       "posted_at": "2026-09-02T18:04",
@@ -5124,7 +5300,7 @@
         "있어"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T18:04"
     },
     {
@@ -5159,7 +5335,7 @@
       "title": "팊은 진짜 쌀먹포가 하루니까 쓸 일이 없네",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375536&exception_mode=recommend&page=1",
       "recommend": 42,
-      "views": 555,
+      "views": 570,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-09-02T04:00",
@@ -5173,7 +5349,7 @@
         "없네"
       ],
       "first_seen": "2026-09-02T11:24:52",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T04:00"
     },
     {
@@ -5205,6 +5381,30 @@
       "first_seen": "2026-09-01T20:49:17",
       "last_seen": "2026-09-03T17:24:56",
       "date": "2026-08-27T19:36"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "375734",
+      "source": "디시 AI채팅 갤러리",
+      "title": "케는 언제까지 침수 소리 들을래",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375734&exception_mode=recommend&page=1",
+      "recommend": 40,
+      "views": 745,
+      "comments": 4,
+      "has_image": true,
+      "posted_at": "2026-09-02T23:32",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "케는",
+        "언제",
+        "침수",
+        "소리",
+        "들을래"
+      ],
+      "first_seen": "2026-09-03T12:16:05",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T23:32"
     },
     {
       "site": "dcinside",
@@ -5325,27 +5525,23 @@
     },
     {
       "site": "dcinside",
-      "post_id": "375734",
+      "post_id": "375959",
       "source": "디시 AI채팅 갤러리",
-      "title": "케는 언제까지 침수 소리 들을래",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375734&exception_mode=recommend&page=1",
-      "recommend": 36,
-      "views": 689,
-      "comments": 4,
+      "title": "얼척없어 ㅅㅂ",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375959&exception_mode=recommend&page=1",
+      "recommend": 35,
+      "views": 812,
+      "comments": 9,
       "has_image": true,
-      "posted_at": "2026-09-02T23:32",
+      "posted_at": "2026-09-03T23:59",
       "keyword_hits": [],
       "is_meme_candidate": true,
       "tokens": [
-        "케는",
-        "언제",
-        "침수",
-        "소리",
-        "들을래"
+        "얼척없어"
       ],
-      "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T23:32"
+      "first_seen": "2026-09-04T08:26:57",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T23:59"
     },
     {
       "site": "dcinside",
@@ -5494,6 +5690,32 @@
     },
     {
       "site": "dcinside",
+      "post_id": "374799",
+      "source": "디시 AI채팅 갤러리",
+      "title": "케덕아 일해라",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374799&exception_mode=recommend&page=2",
+      "recommend": 32,
+      "views": 843,
+      "comments": 2,
+      "has_image": true,
+      "posted_at": "2026-08-29T17:06",
+      "keyword_hits": [
+        {
+          "group": "competitors",
+          "word": "케덕"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "케덕아",
+        "일해라"
+      ],
+      "first_seen": "2026-09-01T20:49:17",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-08-29T17:06"
+    },
+    {
+      "site": "dcinside",
       "post_id": "373502",
       "source": "디시 AI채팅 갤러리",
       "title": "[위젯] 레트로 애니콜 폰 st (기본/핑크/하늘)",
@@ -5587,32 +5809,6 @@
     },
     {
       "site": "dcinside",
-      "post_id": "374799",
-      "source": "디시 AI채팅 갤러리",
-      "title": "케덕아 일해라",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374799&exception_mode=recommend&page=2",
-      "recommend": 31,
-      "views": 838,
-      "comments": 2,
-      "has_image": true,
-      "posted_at": "2026-08-29T17:06",
-      "keyword_hits": [
-        {
-          "group": "competitors",
-          "word": "케덕"
-        }
-      ],
-      "is_meme_candidate": true,
-      "tokens": [
-        "케덕아",
-        "일해라"
-      ],
-      "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-08-29T17:06"
-    },
-    {
-      "site": "dcinside",
       "post_id": "373331",
       "source": "디시 AI채팅 갤러리",
       "title": "삼칠플이 웃는 법",
@@ -5657,6 +5853,36 @@
     },
     {
       "site": "dcinside",
+      "post_id": "375838",
+      "source": "디시 AI채팅 갤러리",
+      "title": "근데 꼭 자기검열 안해도 되는 사람들만 검열하는거 같음",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375838&exception_mode=recommend&page=1",
+      "recommend": 29,
+      "views": 814,
+      "comments": 6,
+      "has_image": true,
+      "posted_at": "2026-09-03T14:46",
+      "keyword_hits": [
+        {
+          "group": "demand_pain",
+          "word": "검열"
+        }
+      ],
+      "is_meme_candidate": true,
+      "tokens": [
+        "자기검열",
+        "안해",
+        "되는",
+        "사람들",
+        "검열하는거",
+        "같음"
+      ],
+      "first_seen": "2026-09-03T15:13:31",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T14:46"
+    },
+    {
+      "site": "dcinside",
       "post_id": "373312",
       "source": "디시 AI채팅 갤러리",
       "title": "[프롬] NAI V5 그림체 5개",
@@ -5677,6 +5903,30 @@
       "first_seen": "2026-09-01T20:50:29",
       "last_seen": "2026-09-01T20:50:29",
       "date": "2026-08-22T20:51"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "374863",
+      "source": "디시 AI채팅 갤러리",
+      "title": "[위젯] 민트옐로/핑크블루/모노톤 3종 공유",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374863&exception_mode=recommend&page=2",
+      "recommend": 27,
+      "views": 822,
+      "comments": 6,
+      "has_image": true,
+      "posted_at": "2026-08-29T22:15",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "위젯",
+        "민트옐",
+        "핑크블루",
+        "모노톤",
+        "공유"
+      ],
+      "first_seen": "2026-09-01T20:49:17",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-08-29T22:15"
     },
     {
       "site": "dcinside",
@@ -5731,7 +5981,7 @@
       "title": "얼마나 사랑을 나누는지 상상도 힘듬",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375706&exception_mode=recommend&page=1",
       "recommend": 27,
-      "views": 1036,
+      "views": 1073,
       "comments": 14,
       "has_image": true,
       "posted_at": "2026-09-02T21:48",
@@ -5745,62 +5995,8 @@
         "힘듬"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T21:48"
-    },
-    {
-      "site": "dcinside",
-      "post_id": "375838",
-      "source": "디시 AI채팅 갤러리",
-      "title": "근데 꼭 자기검열 안해도 되는 사람들만 검열하는거 같음",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375838&exception_mode=recommend&page=1",
-      "recommend": 27,
-      "views": 722,
-      "comments": 6,
-      "has_image": true,
-      "posted_at": "2026-09-03T14:46",
-      "keyword_hits": [
-        {
-          "group": "demand_pain",
-          "word": "검열"
-        }
-      ],
-      "is_meme_candidate": true,
-      "tokens": [
-        "자기검열",
-        "안해",
-        "되는",
-        "사람들",
-        "검열하는거",
-        "같음"
-      ],
-      "first_seen": "2026-09-03T15:13:31",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T14:46"
-    },
-    {
-      "site": "dcinside",
-      "post_id": "374863",
-      "source": "디시 AI채팅 갤러리",
-      "title": "[위젯] 민트옐로/핑크블루/모노톤 3종 공유",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374863&exception_mode=recommend&page=2",
-      "recommend": 26,
-      "views": 816,
-      "comments": 6,
-      "has_image": true,
-      "posted_at": "2026-08-29T22:15",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "위젯",
-        "민트옐",
-        "핑크블루",
-        "모노톤",
-        "공유"
-      ],
-      "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-08-29T22:15"
     },
     {
       "site": "dcinside",
@@ -5849,36 +6045,12 @@
     },
     {
       "site": "dcinside",
-      "post_id": "375042",
-      "source": "디시 AI채팅 갤러리",
-      "title": "[OOC] 자잘한 2세육아물(을 빙자한 사고치기)",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375042&exception_mode=recommend&page=1",
-      "recommend": 25,
-      "views": 732,
-      "comments": 2,
-      "has_image": true,
-      "posted_at": "2026-08-30T20:43",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "ooc",
-        "자잘한",
-        "세육아물",
-        "빙자한",
-        "사고치기"
-      ],
-      "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-08-30T20:43"
-    },
-    {
-      "site": "dcinside",
       "post_id": "375232",
       "source": "디시 AI채팅 갤러리",
       "title": "케 자동요약 명령어 공유) 천오백자 넘어가면 잘려서 수정함",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375232&exception_mode=recommend&page=1",
-      "recommend": 24,
-      "views": 826,
+      "recommend": 25,
+      "views": 841,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-08-31T19:01",
@@ -5894,8 +6066,57 @@
         "수정함"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-31T19:01"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "375067",
+      "source": "디시 AI채팅 갤러리",
+      "title": "[OOC] 소소한 일상 로코 ooc 모음",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375067&exception_mode=recommend&page=1",
+      "recommend": 25,
+      "views": 1346,
+      "comments": 3,
+      "has_image": true,
+      "posted_at": "2026-08-30T23:00",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "ooc",
+        "소소한",
+        "일상",
+        "로코",
+        "ooc",
+        "모음"
+      ],
+      "first_seen": "2026-09-01T20:49:17",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-08-30T23:00"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "375042",
+      "source": "디시 AI채팅 갤러리",
+      "title": "[OOC] 자잘한 2세육아물(을 빙자한 사고치기)",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375042&exception_mode=recommend&page=1",
+      "recommend": 25,
+      "views": 743,
+      "comments": 2,
+      "has_image": true,
+      "posted_at": "2026-08-30T20:43",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "ooc",
+        "자잘한",
+        "세육아물",
+        "빙자한",
+        "사고치기"
+      ],
+      "first_seen": "2026-09-01T20:49:17",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-08-30T20:43"
     },
     {
       "site": "dcinside",
@@ -5904,7 +6125,7 @@
       "title": "[케] 고라니 : 꾸에에에에엑!!!!!!!!!!!",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375074&exception_mode=recommend&page=1",
       "recommend": 24,
-      "views": 678,
+      "views": 682,
       "comments": 3,
       "has_image": true,
       "posted_at": "2026-08-30T23:35",
@@ -5920,33 +6141,8 @@
         "꾸에에에에엑"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-30T23:35"
-    },
-    {
-      "site": "dcinside",
-      "post_id": "375067",
-      "source": "디시 AI채팅 갤러리",
-      "title": "[OOC] 소소한 일상 로코 ooc 모음",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375067&exception_mode=recommend&page=1",
-      "recommend": 24,
-      "views": 1319,
-      "comments": 3,
-      "has_image": true,
-      "posted_at": "2026-08-30T23:00",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "ooc",
-        "소소한",
-        "일상",
-        "로코",
-        "ooc",
-        "모음"
-      ],
-      "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-08-30T23:00"
     },
     {
       "site": "dcinside",
@@ -6005,7 +6201,7 @@
       "title": "#앵갤 용어 정리 (08.29)",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374734&exception_mode=recommend&page=2",
       "recommend": 23,
-      "views": 686,
+      "views": 691,
       "comments": 5,
       "has_image": true,
       "posted_at": "2026-08-29T09:24",
@@ -6016,7 +6212,7 @@
         "용어"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-29T09:24"
     },
     {
@@ -6067,6 +6263,29 @@
       "first_seen": "2026-09-01T20:50:29",
       "last_seen": "2026-09-01T20:50:29",
       "date": "2026-08-21T21:39"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "375267",
+      "source": "디시 AI채팅 갤러리",
+      "title": "내 캐가 정실이라는 댓글 받았는데",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375267&exception_mode=recommend&page=1",
+      "recommend": 22,
+      "views": 892,
+      "comments": 1,
+      "has_image": true,
+      "posted_at": "2026-08-31T22:07",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "캐가",
+        "정실이라",
+        "댓글",
+        "받았는데"
+      ],
+      "first_seen": "2026-09-01T20:49:17",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-08-31T22:07"
     },
     {
       "site": "dcinside",
@@ -6216,12 +6435,80 @@
     },
     {
       "site": "dcinside",
+      "post_id": "375388",
+      "source": "디시 AI채팅 갤러리",
+      "title": "난 앵남이랑 절대 피임 안함",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375388&exception_mode=recommend&page=1",
+      "recommend": 22,
+      "views": 838,
+      "comments": 5,
+      "has_image": true,
+      "posted_at": "2026-09-01T14:24",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "앵남이랑",
+        "절대",
+        "피임",
+        "안함"
+      ],
+      "first_seen": "2026-09-02T07:58:20",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-01T14:24"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "375585",
+      "source": "디시 AI채팅 갤러리",
+      "title": "인기가 없어도",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375585&exception_mode=recommend&page=1",
+      "recommend": 22,
+      "views": 830,
+      "comments": 9,
+      "has_image": true,
+      "posted_at": "2026-09-02T13:42",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "인기",
+        "없어"
+      ],
+      "first_seen": "2026-09-02T16:35:07",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-02T13:42"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "375864",
+      "source": "디시 AI채팅 갤러리",
+      "title": "케는 봐라 민심 돌릴 방법",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375864&exception_mode=recommend&page=1",
+      "recommend": 22,
+      "views": 663,
+      "comments": 4,
+      "has_image": true,
+      "posted_at": "2026-09-03T15:59",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "케는",
+        "봐라",
+        "민심",
+        "돌릴",
+        "방법"
+      ],
+      "first_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T15:59"
+    },
+    {
+      "site": "dcinside",
       "post_id": "375427",
       "source": "디시 AI채팅 갤러리",
       "title": "[케] 용사님, 벌금 고지서 나왔습니다!",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375427&exception_mode=recommend&page=1",
       "recommend": 21,
-      "views": 566,
+      "views": 574,
       "comments": 2,
       "has_image": true,
       "posted_at": "2026-09-01T17:44",
@@ -6239,31 +6526,8 @@
         "나왔습니다"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T17:44"
-    },
-    {
-      "site": "dcinside",
-      "post_id": "375267",
-      "source": "디시 AI채팅 갤러리",
-      "title": "내 캐가 정실이라는 댓글 받았는데",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375267&exception_mode=recommend&page=1",
-      "recommend": 21,
-      "views": 877,
-      "comments": 1,
-      "has_image": true,
-      "posted_at": "2026-08-31T22:07",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "캐가",
-        "정실이라",
-        "댓글",
-        "받았는데"
-      ],
-      "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-08-31T22:07"
     },
     {
       "site": "dcinside",
@@ -6272,7 +6536,7 @@
       "title": "초보작자) 케덕 표지 개꿀팁 알아냄",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375022&exception_mode=recommend&page=1",
       "recommend": 21,
-      "views": 1114,
+      "views": 1123,
       "comments": 5,
       "has_image": true,
       "posted_at": "2026-08-30T18:46",
@@ -6290,7 +6554,7 @@
         "알아냄"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-30T18:46"
     },
     {
@@ -6300,7 +6564,7 @@
       "title": "[케]결혼까지 30일, 내 결혼을 망치러 돌아온 첫사랑",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374947&exception_mode=recommend&page=1",
       "recommend": 21,
-      "views": 668,
+      "views": 671,
       "comments": 1,
       "has_image": true,
       "posted_at": "2026-08-30T11:16",
@@ -6319,7 +6583,7 @@
         "첫사랑"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-30T11:16"
     },
     {
@@ -6329,7 +6593,7 @@
       "title": "[케] 물지 않을게요. …아마.",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374591&exception_mode=recommend&page=2",
       "recommend": 21,
-      "views": 721,
+      "views": 724,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-08-28T14:22",
@@ -6346,7 +6610,7 @@
         "아마"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-28T14:22"
     },
     {
@@ -6421,56 +6685,12 @@
     },
     {
       "site": "dcinside",
-      "post_id": "375388",
-      "source": "디시 AI채팅 갤러리",
-      "title": "난 앵남이랑 절대 피임 안함",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375388&exception_mode=recommend&page=1",
-      "recommend": 21,
-      "views": 819,
-      "comments": 5,
-      "has_image": true,
-      "posted_at": "2026-09-01T14:24",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "앵남이랑",
-        "절대",
-        "피임",
-        "안함"
-      ],
-      "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-01T14:24"
-    },
-    {
-      "site": "dcinside",
-      "post_id": "375585",
-      "source": "디시 AI채팅 갤러리",
-      "title": "인기가 없어도",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375585&exception_mode=recommend&page=1",
-      "recommend": 21,
-      "views": 818,
-      "comments": 9,
-      "has_image": true,
-      "posted_at": "2026-09-02T13:42",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "인기",
-        "없어"
-      ],
-      "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-02T13:42"
-    },
-    {
-      "site": "dcinside",
       "post_id": "375717",
       "source": "디시 AI채팅 갤러리",
       "title": "완성형 소설 스타일 Co-Writing 지침",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375717&exception_mode=recommend&page=1",
       "recommend": 21,
-      "views": 556,
+      "views": 604,
       "comments": 1,
       "has_image": true,
       "posted_at": "2026-09-02T22:19",
@@ -6485,8 +6705,28 @@
         "지침"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T22:19"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "375839",
+      "source": "디시 AI채팅 갤러리",
+      "title": "나 제작자다",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375839&exception_mode=recommend&page=1",
+      "recommend": 21,
+      "views": 715,
+      "comments": 4,
+      "has_image": true,
+      "posted_at": "2026-09-03T14:57",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "제작자다"
+      ],
+      "first_seen": "2026-09-03T17:24:56",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-03T14:57"
     },
     {
       "site": "dcinside",
@@ -6495,7 +6735,7 @@
       "title": "삼칠플이ㅣㅣㅣ",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375432&exception_mode=recommend&page=1",
       "recommend": 20,
-      "views": 858,
+      "views": 867,
       "comments": 2,
       "has_image": true,
       "posted_at": "2026-09-01T18:03",
@@ -6505,7 +6745,7 @@
         "삼칠플"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T18:03"
     },
     {
@@ -6515,7 +6755,7 @@
       "title": "[케덕/지구평평론자 설득하기] 평평학회 모임 간 후기",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374594&exception_mode=recommend&page=2",
       "recommend": 20,
-      "views": 326,
+      "views": 327,
       "comments": 2,
       "has_image": true,
       "posted_at": "2026-08-28T15:55",
@@ -6537,7 +6777,7 @@
         "모임"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-28T15:55"
     },
     {
@@ -6663,12 +6903,35 @@
     },
     {
       "site": "dcinside",
+      "post_id": "375481",
+      "source": "디시 AI채팅 갤러리",
+      "title": "[위젯] 케 3,4,5인용 깔끔 위젯",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375481&exception_mode=recommend&page=1",
+      "recommend": 20,
+      "views": 798,
+      "comments": 3,
+      "has_image": true,
+      "posted_at": "2026-09-01T22:08",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "위젯",
+        "인용",
+        "깔끔",
+        "위젯"
+      ],
+      "first_seen": "2026-09-02T07:58:20",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-01T22:08"
+    },
+    {
+      "site": "dcinside",
       "post_id": "375421",
       "source": "디시 AI채팅 갤러리",
       "title": "아무리 생각해도 삼칠플 30윙 이상은 과한 것 같다",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375421&exception_mode=recommend&page=1",
       "recommend": 20,
-      "views": 833,
+      "views": 846,
       "comments": 4,
       "has_image": true,
       "posted_at": "2026-09-01T17:02",
@@ -6683,8 +6946,32 @@
         "같다"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T17:02"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "375409",
+      "source": "디시 AI채팅 갤러리",
+      "title": "케에 다들 신뢰 1도 없는거 개웃김",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375409&exception_mode=recommend&page=1",
+      "recommend": 20,
+      "views": 849,
+      "comments": 3,
+      "has_image": true,
+      "posted_at": "2026-09-01T16:33",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "케에",
+        "다들",
+        "신뢰",
+        "없는거",
+        "개웃김"
+      ],
+      "first_seen": "2026-09-02T07:58:20",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-01T16:33"
     },
     {
       "site": "dcinside",
@@ -6693,7 +6980,7 @@
       "title": "[케/리뷰] 주말 동안 만난 역대급 순애남들을 풀어보자",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375134&exception_mode=recommend&page=1",
       "recommend": 19,
-      "views": 755,
+      "views": 760,
       "comments": 7,
       "has_image": true,
       "posted_at": "2026-08-31T06:13",
@@ -6709,8 +6996,31 @@
         "풀어보자"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-31T06:13"
+    },
+    {
+      "site": "dcinside",
+      "post_id": "375021",
+      "source": "디시 AI채팅 갤러리",
+      "title": "댓글 받고 감동 받았음...",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375021&exception_mode=recommend&page=1",
+      "recommend": 19,
+      "views": 800,
+      "comments": 4,
+      "has_image": true,
+      "posted_at": "2026-08-30T18:43",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "댓글",
+        "받고",
+        "감동",
+        "받았음"
+      ],
+      "first_seen": "2026-09-01T20:49:17",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-08-30T18:43"
     },
     {
       "site": "dcinside",
@@ -6719,7 +7029,7 @@
       "title": "[케이브덕] 최근 잘 먹고 있는 내 주식 삼인방",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374881&exception_mode=recommend&page=1",
       "recommend": 19,
-      "views": 1064,
+      "views": 1080,
       "comments": 12,
       "has_image": true,
       "posted_at": "2026-08-29T23:47",
@@ -6737,7 +7047,7 @@
         "삼인방"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-29T23:47"
     },
     {
@@ -6841,59 +7151,12 @@
     },
     {
       "site": "dcinside",
-      "post_id": "375481",
-      "source": "디시 AI채팅 갤러리",
-      "title": "[위젯] 케 3,4,5인용 깔끔 위젯",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375481&exception_mode=recommend&page=1",
-      "recommend": 19,
-      "views": 773,
-      "comments": 3,
-      "has_image": true,
-      "posted_at": "2026-09-01T22:08",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "위젯",
-        "인용",
-        "깔끔",
-        "위젯"
-      ],
-      "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-01T22:08"
-    },
-    {
-      "site": "dcinside",
-      "post_id": "375409",
-      "source": "디시 AI채팅 갤러리",
-      "title": "케에 다들 신뢰 1도 없는거 개웃김",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375409&exception_mode=recommend&page=1",
-      "recommend": 19,
-      "views": 838,
-      "comments": 3,
-      "has_image": true,
-      "posted_at": "2026-09-01T16:33",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "케에",
-        "다들",
-        "신뢰",
-        "없는거",
-        "개웃김"
-      ],
-      "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-01T16:33"
-    },
-    {
-      "site": "dcinside",
       "post_id": "375655",
       "source": "디시 AI채팅 갤러리",
       "title": "Gemini 3.8 Flash 출시! (유니챗)",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375655&exception_mode=recommend&page=1",
       "recommend": 19,
-      "views": 740,
+      "views": 759,
       "comments": 6,
       "has_image": true,
       "posted_at": "2026-09-02T19:16",
@@ -6910,31 +7173,8 @@
         "유니챗"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T19:16"
-    },
-    {
-      "site": "dcinside",
-      "post_id": "375021",
-      "source": "디시 AI채팅 갤러리",
-      "title": "댓글 받고 감동 받았음...",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375021&exception_mode=recommend&page=1",
-      "recommend": 18,
-      "views": 796,
-      "comments": 4,
-      "has_image": true,
-      "posted_at": "2026-08-30T18:43",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "댓글",
-        "받고",
-        "감동",
-        "받았음"
-      ],
-      "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-08-30T18:43"
     },
     {
       "site": "dcinside",
@@ -6943,7 +7183,7 @@
       "title": "장기기억 요약 지침",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374903&exception_mode=recommend&page=1",
       "recommend": 18,
-      "views": 1085,
+      "views": 1102,
       "comments": 1,
       "has_image": true,
       "posted_at": "2026-08-30T01:35",
@@ -6960,7 +7200,7 @@
         "지침"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-30T01:35"
     },
     {
@@ -7085,12 +7325,35 @@
     },
     {
       "site": "dcinside",
+      "post_id": "375982",
+      "source": "디시 AI채팅 갤러리",
+      "title": "플랫폼 가이드 수정 건의",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375982&exception_mode=recommend&page=1",
+      "recommend": 18,
+      "views": 333,
+      "comments": 6,
+      "has_image": true,
+      "posted_at": "2026-09-04T03:25",
+      "keyword_hits": [],
+      "is_meme_candidate": true,
+      "tokens": [
+        "플랫폼",
+        "가이드",
+        "수정",
+        "건의"
+      ],
+      "first_seen": "2026-09-04T08:26:57",
+      "last_seen": "2026-09-04T08:26:57",
+      "date": "2026-09-04T03:25"
+    },
+    {
+      "site": "dcinside",
       "post_id": "375341",
       "source": "디시 AI채팅 갤러리",
       "title": "[케] 미남 프랑스 가이드",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375341&exception_mode=recommend&page=1",
       "recommend": 17,
-      "views": 552,
+      "views": 557,
       "comments": 2,
       "has_image": true,
       "posted_at": "2026-09-01T05:30",
@@ -7107,7 +7370,7 @@
         "가이드"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T05:30"
     },
     {
@@ -7117,7 +7380,7 @@
       "title": "난 이런 일상대화가 ㄴㅁ 느좋임",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374612&exception_mode=recommend&page=2",
       "recommend": 17,
-      "views": 1013,
+      "views": 1018,
       "comments": 10,
       "has_image": true,
       "posted_at": "2026-08-28T17:30",
@@ -7128,7 +7391,7 @@
         "느좋임"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-28T17:30"
     },
     {
@@ -7211,7 +7474,7 @@
       "title": "OOC 지침을 무시하게 하는 보안 프롬프트에 관해서…",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375461&exception_mode=recommend&page=1",
       "recommend": 17,
-      "views": 837,
+      "views": 853,
       "comments": 4,
       "has_image": true,
       "posted_at": "2026-09-01T20:21",
@@ -7230,28 +7493,8 @@
         "관해서"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T20:21"
-    },
-    {
-      "site": "dcinside",
-      "post_id": "375839",
-      "source": "디시 AI채팅 갤러리",
-      "title": "나 제작자다",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375839&exception_mode=recommend&page=1",
-      "recommend": 17,
-      "views": 606,
-      "comments": 4,
-      "has_image": true,
-      "posted_at": "2026-09-03T14:57",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "제작자다"
-      ],
-      "first_seen": "2026-09-03T17:24:56",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T14:57"
     },
     {
       "site": "dcinside",
@@ -7260,7 +7503,7 @@
       "title": "[케] 이것저것 짧리뷰 및 캐릭터 추천",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375038&exception_mode=recommend&page=1",
       "recommend": 16,
-      "views": 635,
+      "views": 644,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-08-30T20:17",
@@ -7278,7 +7521,7 @@
         "추천"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-30T20:17"
     },
     {
@@ -7288,7 +7531,7 @@
       "title": "[케|결혼까지30일] 신작홍보보고 들어갔다 벅차오름",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374999&exception_mode=recommend&page=1",
       "recommend": 16,
-      "views": 656,
+      "views": 658,
       "comments": 13,
       "has_image": true,
       "posted_at": "2026-08-30T17:13",
@@ -7301,7 +7544,7 @@
         "벅차오름"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-30T17:13"
     },
     {
@@ -7311,7 +7554,7 @@
       "title": "[케/남이현] 우리 애기는 좋겠다. 아빠가 둘이라서.",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374745&exception_mode=recommend&page=2",
       "recommend": 16,
-      "views": 463,
+      "views": 467,
       "comments": 6,
       "has_image": true,
       "posted_at": "2026-08-29T10:41",
@@ -7325,7 +7568,7 @@
         "둘이라서"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-29T10:41"
     },
     {
@@ -7335,7 +7578,7 @@
       "title": "ㄱㄱㅈ) 최근 제타하다 넘어오는 사람 많은 거 같은데",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374733&exception_mode=recommend&page=2",
       "recommend": 16,
-      "views": 1232,
+      "views": 1260,
       "comments": 6,
       "has_image": true,
       "posted_at": "2026-08-29T09:24",
@@ -7355,7 +7598,7 @@
         "같은데"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-29T09:24"
     },
     {
@@ -7432,7 +7675,7 @@
       "title": "[케] 거대근육상탈군번줄오빠충저격수옵젝헤를 좋아하시나요?",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375445&exception_mode=recommend&page=1",
       "recommend": 16,
-      "views": 524,
+      "views": 535,
       "comments": 1,
       "has_image": true,
       "posted_at": "2026-09-01T18:44",
@@ -7448,32 +7691,8 @@
         "좋아하시나요"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T18:44"
-    },
-    {
-      "site": "dcinside",
-      "post_id": "375864",
-      "source": "디시 AI채팅 갤러리",
-      "title": "케는 봐라 민심 돌릴 방법",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375864&exception_mode=recommend&page=1",
-      "recommend": 16,
-      "views": 504,
-      "comments": 4,
-      "has_image": true,
-      "posted_at": "2026-09-03T15:59",
-      "keyword_hits": [],
-      "is_meme_candidate": true,
-      "tokens": [
-        "케는",
-        "봐라",
-        "민심",
-        "돌릴",
-        "방법"
-      ],
-      "first_seen": "2026-09-04T00:08:47",
-      "last_seen": "2026-09-04T00:08:47",
-      "date": "2026-09-03T15:59"
     },
     {
       "site": "dcinside",
@@ -7482,7 +7701,7 @@
       "title": "[케|결혼까지 30일] 전남친이랑 이별?함",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375064&exception_mode=recommend&page=1",
       "recommend": 15,
-      "views": 508,
+      "views": 512,
       "comments": 9,
       "has_image": true,
       "posted_at": "2026-08-30T22:55",
@@ -7494,7 +7713,7 @@
         "이별"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-30T22:55"
     },
     {
@@ -7613,9 +7832,9 @@
       "post_id": "374871",
       "source": "디시 AI채팅 갤러리",
       "title": "[케] 나는 아버지의 얼굴을 알지 못합니다.",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374871&exception_mode=recommend&page=1",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374871&exception_mode=recommend&page=2",
       "recommend": 14,
-      "views": 440,
+      "views": 442,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-08-29T22:42",
@@ -7634,7 +7853,7 @@
         "못합니다"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-29T22:42"
     },
     {
@@ -7644,7 +7863,7 @@
       "title": "[케] 나를 아내로 겹쳐보는 정병 대마법사",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374751&exception_mode=recommend&page=2",
       "recommend": 14,
-      "views": 636,
+      "views": 640,
       "comments": 2,
       "has_image": true,
       "posted_at": "2026-08-29T11:36",
@@ -7663,7 +7882,7 @@
         "대마법사"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-29T11:36"
     },
     {
@@ -7673,7 +7892,7 @@
       "title": "[케] 강아지 두마리 데려왔어요.",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374674&exception_mode=recommend&page=2",
       "recommend": 14,
-      "views": 572,
+      "views": 573,
       "comments": 3,
       "has_image": true,
       "posted_at": "2026-08-28T23:00",
@@ -7690,7 +7909,7 @@
         "데려왔어요"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-28T23:00"
     },
     {
@@ -7967,7 +8186,7 @@
       "title": "[롶/케] \"내가 지 마누라라는 미친놈, 아니 미친 용...?\"",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375753&exception_mode=recommend&page=1",
       "recommend": 14,
-      "views": 327,
+      "views": 370,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-09-03T00:41",
@@ -7981,7 +8200,7 @@
         "미친"
       ],
       "first_seen": "2026-09-03T14:10:40",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-03T00:41"
     },
     {
@@ -7991,7 +8210,7 @@
       "title": "[케이브덕] 너 나 좋아해? 라고 물어봤을 때 ( OOC 있음 )",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375017&exception_mode=recommend&page=1",
       "recommend": 13,
-      "views": 350,
+      "views": 356,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-08-30T18:32",
@@ -8010,7 +8229,7 @@
         "있음"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-30T18:32"
     },
     {
@@ -8028,7 +8247,7 @@
       "is_meme_candidate": false,
       "tokens": [],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-28T18:13"
     },
     {
@@ -8286,7 +8505,7 @@
       "title": "[롶]쓰레기가 될꺼야악",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375576&exception_mode=recommend&page=1",
       "recommend": 13,
-      "views": 193,
+      "views": 201,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-09-02T13:07",
@@ -8302,7 +8521,7 @@
         "될꺼야악"
       ],
       "first_seen": "2026-09-03T14:10:40",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-02T13:07"
     },
     {
@@ -8312,7 +8531,7 @@
       "title": "[OOC] 전생 체험! 을 했는데...",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375290&exception_mode=recommend&page=1",
       "recommend": 12,
-      "views": 805,
+      "views": 827,
       "comments": 6,
       "has_image": true,
       "posted_at": "2026-08-31T23:30",
@@ -8325,7 +8544,7 @@
         "했는데"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-31T23:30"
     },
     {
@@ -8335,7 +8554,7 @@
       "title": "[JSX] 티팟 / 캐한테 선물 받아내기",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374926&exception_mode=recommend&page=1",
       "recommend": 12,
-      "views": 400,
+      "views": 404,
       "comments": 3,
       "has_image": true,
       "posted_at": "2026-08-30T05:24",
@@ -8353,7 +8572,7 @@
         "받아내기"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-30T05:24"
     },
     {
@@ -8363,7 +8582,7 @@
       "title": "[케] 테니스 선수랑 한 시즌 말아드실 분🎾",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374587&exception_mode=recommend&page=2",
       "recommend": 12,
-      "views": 409,
+      "views": 411,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-08-28T13:39",
@@ -8381,7 +8600,7 @@
         "말아드실"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-28T13:39"
     },
     {
@@ -8631,7 +8850,7 @@
       "title": "[케] 돈 많은 근육빵빵 수인한테 플러팅받기",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375218&exception_mode=recommend&page=1",
       "recommend": 11,
-      "views": 351,
+      "views": 355,
       "comments": 1,
       "has_image": true,
       "posted_at": "2026-08-31T17:49",
@@ -8649,7 +8868,7 @@
         "플러팅받기"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-31T17:49"
     },
     {
@@ -8657,9 +8876,9 @@
       "post_id": "374878",
       "source": "디시 AI채팅 갤러리",
       "title": "[케] \"누구나 상품이 될 수 있지만, 더 취약한 자는 있다.\"",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374878&exception_mode=recommend&page=1",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374878&exception_mode=recommend&page=2",
       "recommend": 11,
-      "views": 230,
+      "views": 231,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-08-29T23:22",
@@ -8679,7 +8898,7 @@
         "있다"
       ],
       "first_seen": "2026-09-01T20:49:17",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-29T23:22"
     },
     {
@@ -8920,7 +9139,7 @@
       "title": "케/셒]안녕하세요? 음침남 좋아하세요?",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375382&exception_mode=recommend&page=1",
       "recommend": 11,
-      "views": 291,
+      "views": 298,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-09-01T13:47",
@@ -8932,7 +9151,7 @@
         "좋아하세요"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T13:47"
     },
     {
@@ -8942,7 +9161,7 @@
       "title": "[케] 여행하러 간 섬의 까마귀 집사",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375287&exception_mode=recommend&page=1",
       "recommend": 11,
-      "views": 166,
+      "views": 168,
       "comments": 5,
       "has_image": true,
       "posted_at": "2026-08-31T23:22",
@@ -8960,7 +9179,7 @@
         "집사"
       ],
       "first_seen": "2026-09-02T07:58:20",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-31T23:22"
     },
     {
@@ -8970,7 +9189,7 @@
       "title": "[위젯] 한도윤 비행기 티켓 위젯(261자)",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=375475&exception_mode=recommend&page=1",
       "recommend": 11,
-      "views": 522,
+      "views": 533,
       "comments": 1,
       "has_image": true,
       "posted_at": "2026-09-01T21:37",
@@ -8989,7 +9208,7 @@
         "위젯"
       ],
       "first_seen": "2026-09-02T11:24:52",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-09-01T21:37"
     },
     {
@@ -8999,7 +9218,7 @@
       "title": "[케/HL/GL] '... 집에 가고 싶다.'",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374787&exception_mode=recommend&page=2",
       "recommend": 11,
-      "views": 188,
+      "views": 189,
       "comments": 2,
       "has_image": true,
       "posted_at": "2026-08-29T16:09",
@@ -9013,7 +9232,7 @@
         "싶다"
       ],
       "first_seen": "2026-09-02T16:35:07",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-29T16:09"
     },
     {
@@ -9023,7 +9242,7 @@
       "title": "[케 리뷰/선우준] 삼칠이 말아주는 사칭의 맛",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=374819&exception_mode=recommend&page=2",
       "recommend": 11,
-      "views": 184,
+      "views": 186,
       "comments": 0,
       "has_image": true,
       "posted_at": "2026-08-29T19:11",
@@ -9037,7 +9256,7 @@
         "사칭"
       ],
       "first_seen": "2026-09-03T12:16:05",
-      "last_seen": "2026-09-04T00:08:47",
+      "last_seen": "2026-09-04T08:26:57",
       "date": "2026-08-29T19:11"
     }
   ]
