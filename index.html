@@ -87,6 +87,12 @@
   .ins-down{color:var(--muted)}
   .ins-llm{white-space:pre-wrap;font-size:14px;line-height:1.6}
   .ins-empty{color:var(--muted);font-size:13px}
+  #toTop{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:50%;
+    border:1.5px solid var(--ink);background:#fff;color:var(--ink);font-size:19px;line-height:1;
+    cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.12);display:none;align-items:center;
+    justify-content:center;z-index:50;padding:0}
+  #toTop:hover{background:var(--ink);color:#fff}
+  #toTop.show{display:flex}
 </style>
 </head>
 <body>
@@ -153,6 +159,17 @@
   <div id="list"></div>
 </main>
 <div class="banner" id="banner"></div>
+<button id="toTop" title="맨 위로" aria-label="맨 위로">↑</button>
+<script>
+// 맨 위로 가기 — 스크롤이 일정 이상 내려가면 나타남
+(function(){
+  var btn=document.getElementById("toTop");
+  window.addEventListener("scroll",function(){
+    if(window.scrollY>400) btn.classList.add("show"); else btn.classList.remove("show");
+  });
+  btn.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+})();
+</script>
 
 <script>
 // 샘플(실제 data/all_latest.json 있으면 대체). posts에 date/tokens/keyword_hits 포함.
