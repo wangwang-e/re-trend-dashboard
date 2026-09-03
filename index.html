@@ -145,6 +145,10 @@
       <span id="comp-chips" class="chipwrap"></span>
     </div>
     <div class="frow">
+      <span class="flab">수요·불만</span>
+      <span id="pain-chips" class="chipwrap"></span>
+    </div>
+    <div class="frow">
       <span class="flab">필터</span>
       <button class="chip" data-flag="meme" aria-pressed="false">밈 후보</button>
     </div>
@@ -193,12 +197,14 @@ const SITE_ORDER=["dcinside","arca"];
 const AXIS={brand:"브랜드",competitors:"경쟁사",demand_pain:"수요·불만",content_meme:"콘텐츠·밈",terms:"용어"};
 const PERIOD_KO={today:"오늘",d3:"최근 3일",d7:"최근 7일",d30:"최근 30일",all:"전체"};
 let DATA=SAMPLE;
-let state={period:"d7", view:"all", site:"all", meme:false, q:"", comp:"", sort:"pop"};
+let state={period:"d7", view:"all", site:"all", meme:false, q:"", comp:"", pain:"", sort:"pop"};
 
 function hasGroup(p,g){return (p.keyword_hits||[]).some(h=>h.group===g)}
 function canonicalOf(w){return (DATA.competitor_map&&DATA.competitor_map[w])||w;}
 function postCompetitors(p){ // 이 글이 언급한 경쟁사 정식명 집합
   const s=new Set();(p.keyword_hits||[]).forEach(h=>{if(h.group==="competitors")s.add(canonicalOf(h.word));});return s;}
+function postPains(p){ // 이 글이 언급한 수요·불만 키워드 집합
+  const s=new Set();(p.keyword_hits||[]).forEach(h=>{if(h.group==="demand_pain")s.add(h.word);});return s;}
 
 // 정렬: 보기(view)의 기본 지표 + 정렬 방향
 function sortPosts(arr){
@@ -389,6 +395,7 @@ function render(){
     if(state.site!=="all"&&p.site!==state.site)return false;
     if(state.meme&&!p.is_meme_candidate)return false;
     if(state.comp&&!postCompetitors(p).has(state.comp))return false;
+    if(state.pain&&!postPains(p).has(state.pain))return false;
     return true;
   });
   document.getElementById("sub").textContent=
@@ -406,6 +413,15 @@ function render(){
   chips+=ccSorted.map(([c,n])=>'<button class="chip" data-comp="'+c+'" aria-pressed="'+(state.comp===c?"true":"false")+'">'+c+' '+n+'</button>').join("");
   if(!ccSorted.length) chips+='<span class="ins-empty" style="align-self:center">이 기간에 경쟁사 언급 없음</span>';
   document.getElementById("comp-chips").innerHTML=chips;
+
+  // 수요·불만 필터 칩 — 현재 기간 내 키워드별 언급 글 수 순
+  const pcnt={};
+  period.forEach(p=>postPains(p).forEach(w=>{pcnt[w]=(pcnt[w]||0)+1;}));
+  const pSorted=Object.entries(pcnt).sort((a,b)=>b[1]-a[1]);
+  let pchips='<button class="chip" data-pain="" aria-pressed="'+(state.pain===""?"true":"false")+'">전체</button>';
+  pchips+=pSorted.map(([w,n])=>'<button class="chip" data-pain="'+w+'" aria-pressed="'+(state.pain===w?"true":"false")+'">'+w+' '+n+'</button>').join("");
+  if(!pSorted.length) pchips+='<span class="ins-empty" style="align-self:center">이 기간에 수요·불만 키워드 없음</span>';
+  document.getElementById("pain-chips").innerHTML=pchips;
 
   rebuildIndex();
   loadPins();
@@ -493,6 +509,7 @@ document.getElementById("filters").addEventListener("click",e=>{
     document.querySelectorAll("[data-site]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
   if(b.dataset.flag){state.meme=!state.meme;b.setAttribute("aria-pressed",state.meme);}
   if(b.dataset.comp!==undefined){state.comp=b.dataset.comp;}
+  if(b.dataset.pain!==undefined){state.pain=b.dataset.pain;}
   if(b.dataset.sort){state.sort=b.dataset.sort;
     document.querySelectorAll("[data-sort]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
   render();
