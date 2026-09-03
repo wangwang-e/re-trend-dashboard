@@ -36,6 +36,9 @@
   .frow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}
   .flab{font-size:11px;color:var(--muted);width:44px;flex:none}
   .chipwrap{display:flex;gap:8px;flex-wrap:wrap}
+  .morebtn{font-weight:600}
+  .active-summary{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+  .active-summary .atag{background:#F0EDE7;border-radius:999px;padding:2px 9px;color:var(--ink)}
   .chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 13px;font-size:13px;cursor:pointer;color:var(--ink)}
   .chip[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
   .chip.sig[aria-pressed=true]{background:var(--signal);border-color:var(--signal)}
@@ -135,6 +138,12 @@
       <button class="chip" data-view="pin" aria-pressed="false">📌 Pin <span id="pin-cnt"></span></button>
     </div>
     <div class="frow">
+      <span class="flab"></span>
+      <button id="moreBtn" class="chip morebtn" aria-expanded="false">▸ 필터 더보기</button>
+      <span id="activeSummary" class="active-summary"></span>
+    </div>
+    <div id="moreFilters" hidden>
+    <div class="frow">
       <span class="flab">사이트</span>
       <button class="chip" data-site="all" aria-pressed="true">전체</button>
       <button class="chip" data-site="dcinside" aria-pressed="false">디시인사이드</button>
@@ -158,6 +167,7 @@
       <button class="chip" data-sort="new" aria-pressed="false">최신순</button>
       <button class="chip" data-sort="old" aria-pressed="false">오래된순</button>
       <button class="chip" data-sort="unpop" aria-pressed="false">인기 낮은순</button>
+    </div>
     </div>
   </div>
   <div id="list"></div>
@@ -221,6 +231,29 @@ function sortPosts(arr){
 function sortLabel(){
   return {pop:(state.view==="views"?"조회순":"인기순"), new:"최신순", old:"오래된순",
           unpop:(state.view==="views"?"조회 낮은순":"인기 낮은순")}[state.sort];
+}
+
+// 필터 더보기 접기/펴기
+function toggleMore(){
+  const mf=document.getElementById("moreFilters"), btn=document.getElementById("moreBtn");
+  if(mf.hasAttribute("hidden")){mf.removeAttribute("hidden");btn.textContent="▾ 필터 접기";btn.setAttribute("aria-expanded","true");}
+  else{mf.setAttribute("hidden","");btn.textContent="▸ 필터 더보기";btn.setAttribute("aria-expanded","false");}
+  updateActiveSummary();
+}
+// 접혀 있을 때, 지금 적용된 세부 필터를 요약해 보여줌
+function updateActiveSummary(){
+  const parts=[];
+  if(state.site!=="all") parts.push(state.site==="dcinside"?"디시인사이드":"arcalive");
+  if(state.comp) parts.push("경쟁사:"+state.comp);
+  if(state.pain) parts.push("수요·불만:"+state.pain);
+  if(state.meme) parts.push("밈 후보");
+  if(state.sort!=="pop") parts.push(sortLabel());
+  const mf=document.getElementById("moreFilters");
+  const collapsed=mf && mf.hasAttribute("hidden");
+  const el=document.getElementById("activeSummary");
+  el.innerHTML=(collapsed && parts.length)
+    ? ("적용: "+parts.map(p=>'<span class="atag">'+p+'</span>').join(""))
+    : "";
 }
 
 // 선택 기간의 시작 시각(밀리초). all이면 null.
@@ -422,6 +455,7 @@ function render(){
   pchips+=pSorted.map(([w,n])=>'<button class="chip" data-pain="'+w+'" aria-pressed="'+(state.pain===w?"true":"false")+'">'+w+' '+n+'</button>').join("");
   if(!pSorted.length) pchips+='<span class="ins-empty" style="align-self:center">이 기간에 수요·불만 키워드 없음</span>';
   document.getElementById("pain-chips").innerHTML=pchips;
+  updateActiveSummary();
 
   rebuildIndex();
   loadPins();
@@ -501,6 +535,7 @@ function renderFreq(base){
 
 document.getElementById("filters").addEventListener("click",e=>{
   const b=e.target.closest("button");if(!b)return;
+  if(b.id==="moreBtn"){toggleMore();return;}
   if(b.dataset.period){state.period=b.dataset.period;
     document.querySelectorAll("[data-period]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
   if(b.dataset.view){state.view=b.dataset.view;
