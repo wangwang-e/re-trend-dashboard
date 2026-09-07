@@ -124,9 +124,9 @@
       <span class="flab">기간</span>
       <button class="chip" data-period="today" aria-pressed="false">오늘</button>
       <button class="chip" data-period="d3" aria-pressed="false">최근 3일</button>
-      <button class="chip" data-period="d7" aria-pressed="true">최근 7일</button>
+      <button class="chip" data-period="d7" aria-pressed="false">최근 7일</button>
       <button class="chip" data-period="d30" aria-pressed="false">최근 30일</button>
-      <button class="chip" data-period="all" aria-pressed="false">전체</button>
+      <button class="chip" data-period="all" aria-pressed="true">전체</button>
     </div>
     <div class="frow">
       <span class="flab">보기</span>
@@ -207,7 +207,7 @@ const SITE_ORDER=["dcinside","arca"];
 const AXIS={brand:"브랜드",competitors:"경쟁사",demand_pain:"수요·불만",content_meme:"콘텐츠·밈",terms:"용어"};
 const PERIOD_KO={today:"오늘",d3:"최근 3일",d7:"최근 7일",d30:"최근 30일",all:"전체"};
 let DATA=SAMPLE;
-let state={period:"d7", view:"all", site:"all", meme:false, q:"", comp:"", pain:"", sort:"pop"};
+let state={period:"all", view:"all", site:"all", meme:false, q:"", comp:"", pain:"", sort:"pop"};
 
 function hasGroup(p,g){return (p.keyword_hits||[]).some(h=>h.group===g)}
 function canonicalOf(w){return (DATA.competitor_map&&DATA.competitor_map[w])||w;}
