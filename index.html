@@ -46,8 +46,7 @@
   .group-h .gname{font-size:16px;font-weight:800;letter-spacing:-.01em}
   .group-h .gcount{font-size:12px;color:var(--muted)}
   .cols{margin-top:2px}
-  .cols.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
-  @media (max-width:720px){ .cols.two{grid-template-columns:1fr} }
+  .cols.multi{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:28px}
   .row{display:grid;grid-template-columns:30px 1fr auto;gap:14px;align-items:start;padding:14px 0;border-bottom:1px solid var(--line)}
   .rank{color:var(--muted);font-weight:700;padding-top:2px}
   .rank.top{color:var(--signal)}
@@ -144,10 +143,8 @@
     </div>
     <div id="moreFilters" hidden>
     <div class="frow">
-      <span class="flab">사이트</span>
-      <button class="chip" data-site="all" aria-pressed="true">전체</button>
-      <button class="chip" data-site="dcinside" aria-pressed="false">디시인사이드</button>
-      <button class="chip" data-site="arca" aria-pressed="false">arcalive</button>
+      <span class="flab">갤러리</span>
+      <span id="source-chips" class="chipwrap"></span>
     </div>
     <div class="frow">
       <span class="flab">경쟁사</span>
@@ -191,25 +188,27 @@ function daysAgo(n){const d=new Date();d.setDate(d.getDate()-n);return d.toISOSt
 const SAMPLE={updated_at:"(샘플)",retention_days:90,
   competitor_map:{"케이브덕":"케이브덕","케덕":"케이브덕","[케]":"케이브덕","모치스":"모치스"},
   selection:{recommend_top_percent:20,min_recommend_floor:3,force_include_groups:["brand","competitors","demand_pain"]},
+  sources:["디시 AI채팅 갤러리","디시 제타 갤러리","디시 크랙 갤러리","아카라이브 AI채팅 채널"],
   posts:[
-  {site:"arca",post_id:"1",title:"이 봇 프롬프트 미쳤다",url:"#",recommend:142,views:8800,comments:63,has_image:true,is_meme_candidate:true,date:daysAgo(0),keyword_hits:[{group:"terms",word:"봇"},{group:"terms",word:"프롬프트"}],tokens:["미쳤다"]},
-  {site:"arca",post_id:"2",title:"짤) 챗봇 근황.gif",url:"#",recommend:96,views:5500,comments:22,has_image:true,is_meme_candidate:true,date:daysAgo(2),keyword_hits:[{group:"content_meme",word:"짤"}],tokens:["근황"]},
-  {site:"arca",post_id:"3",title:"무료로 쓸만한 거 정리",url:"#",recommend:71,views:9300,comments:55,has_image:false,is_meme_candidate:false,date:daysAgo(5),keyword_hits:[{group:"demand_pain",word:"무료"}],tokens:["쓸만한"]},
-  {site:"arca",post_id:"4",title:"Renovel 후기 남김",url:"#",recommend:12,views:1400,comments:8,has_image:false,is_meme_candidate:false,date:daysAgo(9),keyword_hits:[{group:"brand",word:"Renovel"},{group:"content_meme",word:"후기"}],tokens:["남김"]},
-  {site:"dcinside",post_id:"5",title:"리노벨 써봤는데 괜찮네",url:"#",recommend:58,views:4200,comments:41,has_image:false,is_meme_candidate:false,date:daysAgo(0),keyword_hits:[{group:"brand",word:"리노벨"}],tokens:["써봤는데","괜찮네"]},
-  {site:"dcinside",post_id:"6",title:"케이브덕 요금제 또 바뀜",url:"#",recommend:47,views:6100,comments:88,has_image:false,is_meme_candidate:false,date:daysAgo(1),keyword_hits:[{group:"competitors",word:"케이브덕"},{group:"demand_pain",word:"요금"}],tokens:["요금제","바뀜"]},
-  {site:"dcinside",post_id:"7",title:"모치스 검열 왜이럼",url:"#",recommend:33,views:3100,comments:29,has_image:false,is_meme_candidate:false,date:daysAgo(4),keyword_hits:[{group:"competitors",word:"모치스"},{group:"demand_pain",word:"검열"}],tokens:["왜이럼"]},
-  {site:"dcinside",post_id:"8",title:"오래된 잡담",url:"#",recommend:3,views:900,comments:5,has_image:false,is_meme_candidate:false,date:daysAgo(20),keyword_hits:[],tokens:["잡담"]},
+  {site:"arca",source:"아카라이브 AI채팅 채널",post_id:"1",title:"이 봇 프롬프트 미쳤다",url:"#",recommend:142,views:8800,comments:63,has_image:true,is_meme_candidate:true,date:daysAgo(0),keyword_hits:[{group:"terms",word:"봇"},{group:"terms",word:"프롬프트"}],tokens:["미쳤다"]},
+  {site:"arca",source:"아카라이브 AI채팅 채널",post_id:"2",title:"짤) 챗봇 근황.gif",url:"#",recommend:96,views:5500,comments:22,has_image:true,is_meme_candidate:true,date:daysAgo(2),keyword_hits:[{group:"content_meme",word:"짤"}],tokens:["근황"]},
+  {site:"arca",source:"아카라이브 AI채팅 채널",post_id:"3",title:"무료로 쓸만한 거 정리",url:"#",recommend:71,views:9300,comments:55,has_image:false,is_meme_candidate:false,date:daysAgo(5),keyword_hits:[{group:"demand_pain",word:"무료"}],tokens:["쓸만한"]},
+  {site:"arca",source:"아카라이브 AI채팅 채널",post_id:"4",title:"Renovel 후기 남김",url:"#",recommend:12,views:1400,comments:8,has_image:false,is_meme_candidate:false,date:daysAgo(9),keyword_hits:[{group:"brand",word:"Renovel"},{group:"content_meme",word:"후기"}],tokens:["남김"]},
+  {site:"dcinside",source:"디시 AI채팅 갤러리",post_id:"5",title:"리노벨 써봤는데 괜찮네",url:"#",recommend:58,views:4200,comments:41,has_image:false,is_meme_candidate:false,date:daysAgo(0),keyword_hits:[{group:"brand",word:"리노벨"}],tokens:["써봤는데","괜찮네"]},
+  {site:"dcinside",source:"디시 제타 갤러리",post_id:"6",title:"케이브덕 요금제 또 바뀜",url:"#",recommend:47,views:6100,comments:88,has_image:false,is_meme_candidate:false,date:daysAgo(1),keyword_hits:[{group:"competitors",word:"케이브덕"},{group:"demand_pain",word:"요금"}],tokens:["요금제","바뀜"]},
+  {site:"dcinside",source:"디시 AI채팅 갤러리",post_id:"7",title:"모치스 검열 왜이럼",url:"#",recommend:33,views:3100,comments:29,has_image:false,is_meme_candidate:false,date:daysAgo(4),keyword_hits:[{group:"competitors",word:"모치스"},{group:"demand_pain",word:"검열"}],tokens:["왜이럼"]},
+  {site:"dcinside",source:"디시 크랙 갤러리",post_id:"8",title:"오래된 잡담",url:"#",recommend:3,views:900,comments:5,has_image:false,is_meme_candidate:false,date:daysAgo(20),keyword_hits:[],tokens:["잡담"]},
 ]};
 
-const SITE_KO={dcinside:"디시인사이드 AI채팅 갤러리",arca:"arcalive AI채팅 채널"};
-const SITE_ORDER=["dcinside","arca"];
 const AXIS={brand:"브랜드",competitors:"경쟁사",demand_pain:"수요·불만",content_meme:"콘텐츠·밈",terms:"용어"};
 const PERIOD_KO={today:"오늘",d3:"최근 3일",d7:"최근 7일",d30:"최근 30일",all:"전체"};
 let DATA=SAMPLE;
-let state={period:"all", view:"all", site:"all", meme:false, q:"", comp:"", pain:"", sort:"pop"};
+let state={period:"all", view:"all", source:"all", meme:false, q:"", comp:"", pain:"", sort:"pop"};
 
 function hasGroup(p,g){return (p.keyword_hits||[]).some(h=>h.group===g)}
+function sourcesList(){return (DATA.sources&&DATA.sources.length)?DATA.sources
+  :[...new Set((DATA.posts||[]).map(p=>p.source))];}
+function shortSource(s){return (s||"").replace(/\s*(갤러리|채널)\s*$/,"");}
 function canonicalOf(w){return (DATA.competitor_map&&DATA.competitor_map[w])||w;}
 function postCompetitors(p){ // 이 글이 언급한 경쟁사 정식명 집합
   const s=new Set();(p.keyword_hits||[]).forEach(h=>{if(h.group==="competitors")s.add(canonicalOf(h.word));});return s;}
@@ -243,7 +242,7 @@ function toggleMore(){
 // 접혀 있을 때, 지금 적용된 세부 필터를 요약해 보여줌
 function updateActiveSummary(){
   const parts=[];
-  if(state.site!=="all") parts.push(state.site==="dcinside"?"디시인사이드":"arcalive");
+  if(state.source!=="all") parts.push(shortSource(state.source));
   if(state.comp) parts.push("경쟁사:"+state.comp);
   if(state.pain) parts.push("수요·불만:"+state.pain);
   if(state.meme) parts.push("밈 후보");
@@ -295,17 +294,17 @@ let PINS={};
 function loadPins(){try{PINS=JSON.parse(localStorage.getItem("renovel_pins_v1")||"{}");}catch(e){PINS={};}return PINS;}
 function savePins(o){PINS=o;try{localStorage.setItem("renovel_pins_v1",JSON.stringify(o));}catch(e){}}
 function isPinned(key){return !!PINS[key];}
-function slimPost(p){return {site:p.site,post_id:p.post_id,title:p.title,url:p.url,date:p.date,
+function slimPost(p){return {site:p.site,source:p.source,post_id:p.post_id,title:p.title,url:p.url,date:p.date,
   recommend:p.recommend,views:p.views,comments:p.comments,
   keyword_hits:p.keyword_hits||[],is_meme_candidate:!!p.is_meme_candidate};}
 
 let POSTS_BY_KEY={};
-function rebuildIndex(){POSTS_BY_KEY={};(DATA.posts||[]).forEach(p=>{POSTS_BY_KEY[p.site+":"+p.post_id]=p;});}
+function rebuildIndex(){POSTS_BY_KEY={};(DATA.posts||[]).forEach(p=>{POSTS_BY_KEY[p.source+":"+p.post_id]=p;});}
 
 // 한 줄(글) HTML — 목록/Pin 뷰에서 공용
 function rowHTML(p,i,ctx){
-  const key=p.site+":"+p.post_id;
-  const w=Math.round(((p.recommend||0)/((ctx.maxBySite&&ctx.maxBySite[p.site])||1))*100);
+  const key=p.source+":"+p.post_id;
+  const w=Math.round(((p.recommend||0)/((ctx.maxBySource&&ctx.maxBySource[p.source])||1))*100);
   const tags=(p.keyword_hits||[]).map(h=>`<span class="tag ${h.group}">${h.word}</span>`).join("");
   const meme=p.is_meme_candidate?'<span class="tag meme">밈</span>':"";
   const sel=(ctx.hotSet&&ctx.hotSet.has(p))?'<span class="sel">뜨는글</span>':"";
@@ -337,10 +336,10 @@ function renderSearch(){
   const list=document.getElementById("list");
   if(!hits.length){list.innerHTML='<div class="empty">‘'+q+'’ 검색 결과가 없어요. (제목 기준·누적 전체에서 검색)</div>';return;}
 
-  const maxBySite={};hits.forEach(p=>{maxBySite[p.site]=Math.max(maxBySite[p.site]||1,p.recommend||0);});
-  const ctx={hotSet:null,metric:"recommend",maxBySite};
-  const groups=SITE_ORDER.map(s=>({name:SITE_KO[s],items:hits.filter(p=>p.site===s)})).filter(g=>g.items.length);
-  list.innerHTML='<div class="cols '+(groups.length===2?'two':'')+'">'+groups.map(g=>
+  const maxBySource={};hits.forEach(p=>{maxBySource[p.source]=Math.max(maxBySource[p.source]||1,p.recommend||0);});
+  const ctx={hotSet:null,metric:"recommend",maxBySource};
+  const groups=sourcesList().map(s=>({name:s,items:hits.filter(p=>p.source===s)})).filter(g=>g.items.length);
+  list.innerHTML='<div class="cols '+(groups.length>=2?'multi':'')+'">'+groups.map(g=>
     '<div class="col"><div class="group-h"><span class="gname">'+g.name+'</span>'+
     '<span class="gcount">'+g.items.length+'건 · 최신순</span></div>'+
     g.items.map((p,i)=>rowHTML(p,i,ctx)).join("")+'</div>').join("")+'</div>';
@@ -351,8 +350,8 @@ function renderPin(){
   const list=document.getElementById("list");
   if(!pins.length){list.innerHTML='<div class="empty">아직 Pin한 글이 없어요. 각 글 오른쪽 📌 를 눌러 저장하세요.<br>(회원 정보 없이 이 브라우저에만 저장됩니다)</div>';return;}
   pins.sort((a,b)=>(Date.parse(b.date||"")||0)-(Date.parse(a.date||"")||0));
-  const maxBySite={};pins.forEach(p=>{maxBySite[p.site]=Math.max(maxBySite[p.site]||1,p.recommend||0);});
-  const ctx={hotSet:null,metric:"recommend",maxBySite};
+  const maxBySource={};pins.forEach(p=>{maxBySource[p.source]=Math.max(maxBySource[p.source]||1,p.recommend||0);});
+  const ctx={hotSet:null,metric:"recommend",maxBySource};
   list.innerHTML='<div class="group-h"><span class="gname">📌 내가 Pin한 글</span>'+
     '<span class="gcount">'+pins.length+'건 · 이 브라우저에만 저장</span></div>'+
     pins.map((p,i)=>rowHTML(p,i,ctx)).join("");
@@ -425,7 +424,7 @@ function render(){
   const period=inPeriod();
   // 사이트/밈/경쟁사 필터를 반영한 기준 집합(헤더 통계 + 목록/빈도 보기용)
   const base=period.filter(p=>{
-    if(state.site!=="all"&&p.site!==state.site)return false;
+    if(state.source!=="all"&&p.source!==state.source)return false;
     if(state.meme&&!p.is_meme_candidate)return false;
     if(state.comp&&!postCompetitors(p).has(state.comp))return false;
     if(state.pain&&!postPains(p).has(state.pain))return false;
@@ -437,6 +436,13 @@ function render(){
   document.getElementById("s-pain").textContent=base.filter(p=>hasGroup(p,"demand_pain")).length;
   document.getElementById("s-brand").textContent=base.filter(p=>hasGroup(p,"brand")).length;
   document.getElementById("s-comp").textContent=base.filter(p=>hasGroup(p,"competitors")).length;
+
+  // 갤러리/채널(소스) 필터 칩 — 기간 내 글 수와 함께
+  const srcCount={};
+  period.forEach(p=>{srcCount[p.source]=(srcCount[p.source]||0)+1;});
+  let schips='<button class="chip" data-source="all" aria-pressed="'+(state.source==="all"?"true":"false")+'">전체</button>';
+  schips+=sourcesList().map(s=>'<button class="chip" data-source="'+s+'" aria-pressed="'+(state.source===s?"true":"false")+'">'+shortSource(s)+' '+(srcCount[s]||0)+'</button>').join("");
+  document.getElementById("source-chips").innerHTML=schips;
 
   // 경쟁사 필터 칩 — 현재 기간 내 '정식명별 언급 글 수' 순으로. 칩 자체가 순위표.
   const cc={};
@@ -467,9 +473,9 @@ function render(){
   if(state.view==="pin"){renderPin();return;}
   if(state.view==="freq"){renderFreq(base);return;}
 
-  // 사이트별 최대 추천(heat 정규화) — 기간 집합 기준
-  const maxBySite={};
-  period.forEach(p=>{maxBySite[p.site]=Math.max(maxBySite[p.site]||1,p.recommend||0)});
+  // 소스(갤러리/채널)별 최대 추천(heat 정규화) — 기간 집합 기준
+  const maxBySource={};
+  period.forEach(p=>{maxBySource[p.source]=Math.max(maxBySource[p.source]||1,p.recommend||0)});
   const metric = state.view==="views" ? "views" : "recommend";
 
   let posts;
@@ -486,13 +492,13 @@ function render(){
   if(!posts.length){list.innerHTML='<div class="empty">이 기간/조건에 맞는 글이 없습니다.</div>';return}
 
   let groups;
-  if(state.site==="all"){
-    groups=SITE_ORDER.map(s=>({name:SITE_KO[s],items:posts.filter(p=>p.site===s)})).filter(g=>g.items.length);
+  if(state.source==="all"){
+    groups=sourcesList().map(s=>({name:s,items:posts.filter(p=>p.source===s)})).filter(g=>g.items.length);
   }else{
-    groups=[{name:SITE_KO[state.site],items:posts}];
+    groups=[{name:state.source,items:posts}];
   }
-  const ctx={hotSet, metric, maxBySite};
-  list.innerHTML='<div class="cols '+(groups.length===2?'two':'')+'">'+groups.map(g=>{
+  const ctx={hotSet, metric, maxBySource};
+  list.innerHTML='<div class="cols '+(groups.length>=2?'multi':'')+'">'+groups.map(g=>{
     const rows=g.items.map((p,i)=>rowHTML(p,i,ctx)).join("");
     return `<div class="col"><div class="group-h"><span class="gname">${g.name}</span>
       <span class="gcount">${g.items.length}건 · ${sortLabel()}</span></div>${rows}</div>`;
@@ -501,7 +507,7 @@ function render(){
 
 function renderFreq(base){
   // 관심 키워드(keyword_hits) + 자동 추출 단어(tokens)를 기간 집합에서 집계
-  const field = state.site==="all" ? "total" : state.site;
+  const field = "total";   // 소스 필터는 base 에 이미 반영됨
   const tracked={}, emergent={};
   base.forEach(p=>{
     (p.keyword_hits||[]).forEach(h=>{
@@ -522,7 +528,7 @@ function renderFreq(base){
     const body=rows.map((d,i)=>{
       const c=d[field]||0,w=Math.round(c/max*100);
       const tag=d.group?`<span class="tag ${d.group}">${AXIS[d.group]||d.group}</span>`:"";
-      const bd=state.site==="all"?`<span class="dim num">디시인사이드 ${d.dcinside||0}·arcalive ${d.arca||0}</span>`:"";
+      const bd=`<span class="dim num">디시 ${d.dcinside||0}·아카 ${d.arca||0}</span>`;
       return `<div class="kw"><div class="kwrank num ${i<3?'top':''}">${i+1}</div>
         <div><div class="kwword">${d.word} ${tag}</div><div class="kwbar" style="width:${Math.max(w,2)}%"></div></div>
         <div class="kwnum"><span class="metric num">${c}회</span> ${bd}</div></div>`;
@@ -540,8 +546,7 @@ document.getElementById("filters").addEventListener("click",e=>{
     document.querySelectorAll("[data-period]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
   if(b.dataset.view){state.view=b.dataset.view;
     document.querySelectorAll("[data-view]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
-  if(b.dataset.site){state.site=b.dataset.site;
-    document.querySelectorAll("[data-site]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
+  if(b.dataset.source!==undefined){state.source=b.dataset.source;}
   if(b.dataset.flag){state.meme=!state.meme;b.setAttribute("aria-pressed",state.meme);}
   if(b.dataset.comp!==undefined){state.comp=b.dataset.comp;}
   if(b.dataset.pain!==undefined){state.pain=b.dataset.pain;}
