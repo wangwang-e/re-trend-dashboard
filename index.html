@@ -163,6 +163,7 @@
       <button class="chip" data-sort="pop" aria-pressed="true">인기순</button>
       <button class="chip" data-sort="new" aria-pressed="false">최신순</button>
       <button class="chip" data-sort="old" aria-pressed="false">오래된순</button>
+      <button class="chip" data-sort="cmt" aria-pressed="false">댓글순</button>
       <button class="chip" data-sort="unpop" aria-pressed="false">인기 낮은순</button>
     </div>
     </div>
@@ -223,13 +224,14 @@ function sortPosts(arr){
   const byDate=(a,b)=>(Date.parse(a.date||"")||0)-(Date.parse(b.date||"")||0);
   if(state.sort==="new") arr.sort((a,b)=>byDate(b,a));
   else if(state.sort==="old") arr.sort(byDate);
+  else if(state.sort==="cmt") arr.sort((a,b)=>(b.comments||0)-(a.comments||0));
   else if(state.sort==="unpop"){ arr.sort(primary); arr.reverse(); }
   else arr.sort(primary); // pop (기본)
   return arr;
 }
 function sortLabel(){
   return {pop:(state.view==="views"?"조회순":"인기순"), new:"최신순", old:"오래된순",
-          unpop:(state.view==="views"?"조회 낮은순":"인기 낮은순")}[state.sort];
+          cmt:"댓글순", unpop:(state.view==="views"?"조회 낮은순":"인기 낮은순")}[state.sort];
 }
 
 // 필터 더보기 접기/펴기
