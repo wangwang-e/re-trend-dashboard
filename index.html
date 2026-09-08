@@ -46,13 +46,28 @@
   .group-h .gname{font-size:16px;font-weight:800;letter-spacing:-.01em}
   .group-h .gcount{font-size:12px;color:var(--muted)}
   .cols{margin-top:2px}
-  /* 나란히(가로 스크롤): 고정 폭 열을 옆으로 나열, 넘치면 좌우 스크롤 */
-  .cols.side{display:flex;gap:20px;overflow-x:auto;padding-bottom:12px;align-items:start;
-    scroll-snap-type:x proximity}
+  /* 리스트 상단 바 + 레이아웃 전환 버튼(우측 상단) */
+  #listbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:6px 0 2px}
+  #listbar-info{font-size:12px;color:var(--muted)}
+  .layout-switch{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;flex:none}
+  .lbtn{border:none;background:#fff;color:var(--ink);font-size:13px;padding:6px 12px;cursor:pointer;
+    border-left:1px solid var(--line)}
+  .lbtn:first-child{border-left:none}
+  .lbtn[aria-pressed=true]{background:var(--ink);color:#fff}
+  /* 나란히(가로 스크롤): 고정 폭 열을 옆으로 */
+  .cols.side{display:flex;gap:20px;overflow-x:auto;padding-bottom:12px;align-items:start;scroll-snap-type:x proximity}
   .cols.side .col{flex:0 0 340px;scroll-snap-align:start}
   .cols.side::-webkit-scrollbar{height:9px}
   .cols.side::-webkit-scrollbar-thumb{background:var(--line);border-radius:9px}
-  /* 집중(세로 쌓기): 전체 선택 시 갤러리들을 위아래로 */
+  /* 블록(2×2): 고정 높이 칸, 칸 내부에서만 스크롤 */
+  .cols.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+  @media (max-width:760px){ .cols.grid{grid-template-columns:1fr} }
+  .cols.grid .col{border:1px solid var(--line);border-radius:10px;padding:0 14px;
+    max-height:560px;overflow-y:auto}
+  .cols.grid .col .group-h{position:sticky;top:0;background:var(--paper);margin-top:0;padding-top:14px;z-index:1}
+  .cols.grid .col::-webkit-scrollbar{width:8px}
+  .cols.grid .col::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
+  /* 집중(세로 쌓기) */
   .cols.stack{display:block}
   .cols.stack .col{margin-bottom:8px}
   .row{display:grid;grid-template-columns:30px 1fr auto;gap:14px;align-items:start;padding:14px 0;border-bottom:1px solid var(--line)}
@@ -145,11 +160,6 @@
       <button class="chip" data-view="pin" aria-pressed="false">📌 Pin <span id="pin-cnt"></span></button>
     </div>
     <div class="frow">
-      <span class="flab">화면</span>
-      <button class="chip" data-layout="side" aria-pressed="true">나란히(가로 스크롤)</button>
-      <button class="chip" data-layout="focus" aria-pressed="false">집중(한 갤러리 크게)</button>
-    </div>
-    <div class="frow">
       <span class="flab"></span>
       <button id="moreBtn" class="chip morebtn" aria-expanded="false">▸ 필터 더보기</button>
       <span id="activeSummary" class="active-summary"></span>
@@ -180,6 +190,14 @@
       <button class="chip" data-sort="unpop" aria-pressed="false">인기 낮은순</button>
     </div>
     </div>
+  </div>
+  <div id="listbar">
+    <span id="listbar-info"></span>
+    <span class="layout-switch" id="layoutSwitch">
+      <button class="lbtn" data-layout="side" aria-pressed="true" title="4열 가로 나란히">▤ 나란히</button>
+      <button class="lbtn" data-layout="grid" aria-pressed="false" title="2×2 블록(칸 내부 스크롤)">▦ 블록</button>
+      <button class="lbtn" data-layout="focus" aria-pressed="false" title="1갤러리씩 크게">▭ 집중</button>
+    </span>
   </div>
   <div id="list"></div>
 </main>
@@ -245,6 +263,13 @@ function sortPosts(arr){
 function sortLabel(){
   return {pop:(state.view==="views"?"조회순":"인기순"), new:"최신순", old:"오래된순",
           cmt:"댓글순", unpop:(state.view==="views"?"조회 낮은순":"인기 낮은순")}[state.sort];
+}
+// 레이아웃 클래스: 그룹 1개면 항상 stack, 아니면 side/grid/focus(=stack)
+function colsClassFor(n){
+  if(n<2) return "stack";
+  if(state.layout==="grid") return "grid";
+  if(state.layout==="focus") return "stack";
+  return "side";
 }
 
 // 필터 더보기 접기/펴기
@@ -354,7 +379,7 @@ function renderSearch(){
   const maxBySource={};hits.forEach(p=>{maxBySource[p.source]=Math.max(maxBySource[p.source]||1,p.recommend||0);});
   const ctx={hotSet:null,metric:"recommend",maxBySource};
   const groups=sourcesList().map(s=>({name:s,items:hits.filter(p=>p.source===s)})).filter(g=>g.items.length);
-  const sCls=(groups.length>=2 && state.layout==="side")?"side":"stack";
+  const sCls=colsClassFor(groups.length);
   list.innerHTML='<div class="cols '+sCls+'">'+groups.map(g=>
     '<div class="col"><div class="group-h"><span class="gname">'+g.name+'</span>'+
     '<span class="gcount">'+g.items.length+'건 · 최신순</span></div>'+
@@ -484,6 +509,10 @@ function render(){
   const pc=Object.keys(PINS).length;
   document.getElementById("pin-cnt").textContent = pc ? "("+pc+")" : "";
 
+  // 레이아웃 전환 바는 목록/검색 뷰에서만 노출
+  const showBar = state.q.trim() ? true : (state.view==="all"||state.view==="hot"||state.view==="views");
+  document.getElementById("listbar").style.display = showBar ? "flex" : "none";
+
   if(state.q.trim()){renderSearch();return;}   // 검색 중이면 전체에서 찾기(기간·사이트 무시)
   if(state.view==="insight"){renderInsight();return;}
   if(state.view==="pin"){renderPin();return;}
@@ -513,8 +542,8 @@ function render(){
   }else{
     groups=[{name:state.source,items:posts}];
   }
-  // 레이아웃: 나란히(가로 스크롤) vs 집중(세로 쌓기). 그룹이 1개면 항상 세로.
-  const colsClass = (groups.length>=2 && state.layout==="side") ? "side" : "stack";
+  // 레이아웃: 나란히(side) / 블록2×2(grid) / 집중(stack). 그룹 1개면 stack.
+  const colsClass = colsClassFor(groups.length);
   const ctx={hotSet, metric, maxBySource};
   list.innerHTML='<div class="cols '+colsClass+'">'+groups.map(g=>{
     const rows=g.items.map((p,i)=>rowHTML(p,i,ctx)).join("");
@@ -570,8 +599,14 @@ document.getElementById("filters").addEventListener("click",e=>{
   if(b.dataset.pain!==undefined){state.pain=b.dataset.pain;}
   if(b.dataset.sort){state.sort=b.dataset.sort;
     document.querySelectorAll("[data-sort]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
-  if(b.dataset.layout){state.layout=b.dataset.layout;
-    document.querySelectorAll("[data-layout]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
+  render();
+});
+
+// 리스트 우측 상단 레이아웃 전환 (나란히/블록/집중)
+document.getElementById("layoutSwitch").addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b||!b.dataset.layout)return;
+  state.layout=b.dataset.layout;
+  document.querySelectorAll("#layoutSwitch [data-layout]").forEach(x=>x.setAttribute("aria-pressed",x===b));
   render();
 });
 
