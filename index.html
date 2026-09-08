@@ -46,7 +46,15 @@
   .group-h .gname{font-size:16px;font-weight:800;letter-spacing:-.01em}
   .group-h .gcount{font-size:12px;color:var(--muted)}
   .cols{margin-top:2px}
-  .cols.multi{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;align-items:start}
+  /* 나란히(가로 스크롤): 고정 폭 열을 옆으로 나열, 넘치면 좌우 스크롤 */
+  .cols.side{display:flex;gap:20px;overflow-x:auto;padding-bottom:12px;align-items:start;
+    scroll-snap-type:x proximity}
+  .cols.side .col{flex:0 0 340px;scroll-snap-align:start}
+  .cols.side::-webkit-scrollbar{height:9px}
+  .cols.side::-webkit-scrollbar-thumb{background:var(--line);border-radius:9px}
+  /* 집중(세로 쌓기): 전체 선택 시 갤러리들을 위아래로 */
+  .cols.stack{display:block}
+  .cols.stack .col{margin-bottom:8px}
   .row{display:grid;grid-template-columns:30px 1fr auto;gap:14px;align-items:start;padding:14px 0;border-bottom:1px solid var(--line)}
   .rank{color:var(--muted);font-weight:700;padding-top:2px}
   .rank.top{color:var(--signal)}
@@ -137,6 +145,11 @@
       <button class="chip" data-view="pin" aria-pressed="false">📌 Pin <span id="pin-cnt"></span></button>
     </div>
     <div class="frow">
+      <span class="flab">화면</span>
+      <button class="chip" data-layout="side" aria-pressed="true">나란히(가로 스크롤)</button>
+      <button class="chip" data-layout="focus" aria-pressed="false">집중(한 갤러리 크게)</button>
+    </div>
+    <div class="frow">
       <span class="flab"></span>
       <button id="moreBtn" class="chip morebtn" aria-expanded="false">▸ 필터 더보기</button>
       <span id="activeSummary" class="active-summary"></span>
@@ -204,7 +217,7 @@ const SAMPLE={updated_at:"(샘플)",retention_days:90,
 const AXIS={brand:"브랜드",competitors:"경쟁사",demand_pain:"수요·불만",content_meme:"콘텐츠·밈",terms:"용어"};
 const PERIOD_KO={today:"오늘",d3:"최근 3일",d7:"최근 7일",d30:"최근 30일",all:"전체"};
 let DATA=SAMPLE;
-let state={period:"all", view:"all", source:"all", meme:false, q:"", comp:"", pain:"", sort:"pop"};
+let state={period:"all", view:"all", source:"all", meme:false, q:"", comp:"", pain:"", sort:"pop", layout:"side"};
 
 function hasGroup(p,g){return (p.keyword_hits||[]).some(h=>h.group===g)}
 function sourcesList(){return (DATA.sources&&DATA.sources.length)?DATA.sources
@@ -341,7 +354,8 @@ function renderSearch(){
   const maxBySource={};hits.forEach(p=>{maxBySource[p.source]=Math.max(maxBySource[p.source]||1,p.recommend||0);});
   const ctx={hotSet:null,metric:"recommend",maxBySource};
   const groups=sourcesList().map(s=>({name:s,items:hits.filter(p=>p.source===s)})).filter(g=>g.items.length);
-  list.innerHTML='<div class="cols '+(groups.length>=2?'multi':'')+'">'+groups.map(g=>
+  const sCls=(groups.length>=2 && state.layout==="side")?"side":"stack";
+  list.innerHTML='<div class="cols '+sCls+'">'+groups.map(g=>
     '<div class="col"><div class="group-h"><span class="gname">'+g.name+'</span>'+
     '<span class="gcount">'+g.items.length+'건 · 최신순</span></div>'+
     g.items.map((p,i)=>rowHTML(p,i,ctx)).join("")+'</div>').join("")+'</div>';
@@ -499,8 +513,10 @@ function render(){
   }else{
     groups=[{name:state.source,items:posts}];
   }
+  // 레이아웃: 나란히(가로 스크롤) vs 집중(세로 쌓기). 그룹이 1개면 항상 세로.
+  const colsClass = (groups.length>=2 && state.layout==="side") ? "side" : "stack";
   const ctx={hotSet, metric, maxBySource};
-  list.innerHTML='<div class="cols '+(groups.length>=2?'multi':'')+'">'+groups.map(g=>{
+  list.innerHTML='<div class="cols '+colsClass+'">'+groups.map(g=>{
     const rows=g.items.map((p,i)=>rowHTML(p,i,ctx)).join("");
     return `<div class="col"><div class="group-h"><span class="gname">${g.name}</span>
       <span class="gcount">${g.items.length}건 · ${sortLabel()}</span></div>${rows}</div>`;
@@ -554,6 +570,8 @@ document.getElementById("filters").addEventListener("click",e=>{
   if(b.dataset.pain!==undefined){state.pain=b.dataset.pain;}
   if(b.dataset.sort){state.sort=b.dataset.sort;
     document.querySelectorAll("[data-sort]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
+  if(b.dataset.layout){state.layout=b.dataset.layout;
+    document.querySelectorAll("[data-layout]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
   render();
 });
 
