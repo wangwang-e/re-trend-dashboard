@@ -87,6 +87,7 @@
   .tag.demand_pain{background:#FBE6E3;color:var(--pain)}
   .tag.content_meme{background:#F1E7F7;color:var(--meme2)}
   .tag.terms,.tag.topic{background:#EFEBF7;color:var(--topic)}
+  .tag.watch{background:var(--ink);color:#fff}
   .tag.meme{background:var(--signal);color:#fff}
   .nums{text-align:right;white-space:nowrap;font-size:13px;padding-top:2px}
   .nums .metric{color:var(--signal);font-weight:700}
@@ -178,6 +179,10 @@
       <span id="pain-chips" class="chipwrap"></span>
     </div>
     <div class="frow">
+      <span class="flab">감시어</span>
+      <span id="watch-chips" class="chipwrap"></span>
+    </div>
+    <div class="frow">
       <span class="flab">필터</span>
       <button class="chip" data-flag="meme" aria-pressed="false">밈 후보</button>
     </div>
@@ -232,10 +237,10 @@ const SAMPLE={updated_at:"(샘플)",retention_days:90,
   {site:"dcinside",source:"디시 크랙 갤러리",post_id:"8",title:"오래된 잡담",url:"#",recommend:3,views:900,comments:5,has_image:false,is_meme_candidate:false,date:daysAgo(20),keyword_hits:[],tokens:["잡담"]},
 ]};
 
-const AXIS={brand:"브랜드",competitors:"경쟁사",demand_pain:"수요·불만",content_meme:"콘텐츠·밈",terms:"용어"};
+const AXIS={brand:"브랜드",competitors:"경쟁사",demand_pain:"수요·불만",content_meme:"콘텐츠·밈",terms:"용어",watch:"감시어"};
 const PERIOD_KO={today:"오늘",d3:"최근 3일",d7:"최근 7일",d30:"최근 30일",all:"전체"};
 let DATA=SAMPLE;
-let state={period:"all", view:"all", source:"all", meme:false, q:"", comp:"", pain:"", sort:"pop", layout:"grid"};
+let state={period:"all", view:"all", source:"all", meme:false, q:"", comp:"", pain:"", watch:"", sort:"pop", layout:"grid"};
 
 function hasGroup(p,g){return (p.keyword_hits||[]).some(h=>h.group===g)}
 function sourcesList(){return (DATA.sources&&DATA.sources.length)?DATA.sources
@@ -246,6 +251,8 @@ function postCompetitors(p){ // 이 글이 언급한 경쟁사 정식명 집합
   const s=new Set();(p.keyword_hits||[]).forEach(h=>{if(h.group==="competitors")s.add(canonicalOf(h.word));});return s;}
 function postPains(p){ // 이 글이 언급한 수요·불만 키워드 집합
   const s=new Set();(p.keyword_hits||[]).forEach(h=>{if(h.group==="demand_pain")s.add(h.word);});return s;}
+function postWatch(p){ // 이 글이 포함한 감시어 집합
+  const s=new Set();(p.keyword_hits||[]).forEach(h=>{if(h.group==="watch")s.add(h.word);});return s;}
 
 // 정렬: 보기(view)의 기본 지표 + 정렬 방향
 function sortPosts(arr){
@@ -285,6 +292,7 @@ function updateActiveSummary(){
   if(state.source!=="all") parts.push(shortSource(state.source));
   if(state.comp) parts.push("경쟁사:"+state.comp);
   if(state.pain) parts.push("수요·불만:"+state.pain);
+  if(state.watch) parts.push("감시어:"+state.watch);
   if(state.meme) parts.push("밈 후보");
   if(state.sort!=="pop") parts.push(sortLabel());
   const mf=document.getElementById("moreFilters");
@@ -469,6 +477,7 @@ function render(){
     if(state.meme&&!p.is_meme_candidate)return false;
     if(state.comp&&!postCompetitors(p).has(state.comp))return false;
     if(state.pain&&!postPains(p).has(state.pain))return false;
+    if(state.watch&&!postWatch(p).has(state.watch))return false;
     return true;
   });
   document.getElementById("sub").textContent=
@@ -502,6 +511,15 @@ function render(){
   pchips+=pSorted.map(([w,n])=>'<button class="chip" data-pain="'+w+'" aria-pressed="'+(state.pain===w?"true":"false")+'">'+w+' '+n+'</button>').join("");
   if(!pSorted.length) pchips+='<span class="ins-empty" style="align-self:center">이 기간에 수요·불만 키워드 없음</span>';
   document.getElementById("pain-chips").innerHTML=pchips;
+
+  // 감시어 필터 칩 — config watch 키워드별 언급 글 수
+  const wcnt={};
+  period.forEach(p=>postWatch(p).forEach(w=>{wcnt[w]=(wcnt[w]||0)+1;}));
+  const wSorted=Object.entries(wcnt).sort((a,b)=>b[1]-a[1]);
+  let wchips='<button class="chip" data-watch="" aria-pressed="'+(state.watch===""?"true":"false")+'">전체</button>';
+  wchips+=wSorted.map(([w,n])=>'<button class="chip" data-watch="'+w+'" aria-pressed="'+(state.watch===w?"true":"false")+'">'+w+' '+n+'</button>').join("");
+  if(!wSorted.length) wchips+='<span class="ins-empty" style="align-self:center">이 기간에 감시어 없음</span>';
+  document.getElementById("watch-chips").innerHTML=wchips;
   updateActiveSummary();
 
   rebuildIndex();
@@ -597,6 +615,7 @@ document.getElementById("filters").addEventListener("click",e=>{
   if(b.dataset.flag){state.meme=!state.meme;b.setAttribute("aria-pressed",state.meme);}
   if(b.dataset.comp!==undefined){state.comp=b.dataset.comp;}
   if(b.dataset.pain!==undefined){state.pain=b.dataset.pain;}
+  if(b.dataset.watch!==undefined){state.watch=b.dataset.watch;}
   if(b.dataset.sort){state.sort=b.dataset.sort;
     document.querySelectorAll("[data-sort]").forEach(x=>x.setAttribute("aria-pressed",x===b));}
   render();
