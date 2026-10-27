@@ -124,9 +124,10 @@
 <body>
 <header>
   <h1>Re-Novel Trend Radar</h1>
-  <p class="desc">디시인사이드·arcalive AI채팅 커뮤니티의 뜨는 글·밈·경쟁사/리노벨 언급을 모아 보는 내부 모니터링 보드</p>
-  <p class="criteria"><b>수집 기준</b> · 디시인사이드 개념글 + arcalive 베스트를 정기적으로 누적 · ‘뜨는글’은 각 사이트 추천 상위 20%(+리노벨·경쟁사·불만 키워드 포함) · 상단에서 기간·보기 선택</p>
+  <p class="desc">디시인사이드·arcalive AI채팅 커뮤니티와 Reddit r/visualnovels의 글·밈·콘텐츠 반응을 모아 보는 내부 모니터링 보드</p>
+  <p class="criteria"><b>수집 기준</b> · 디시인사이드·arcalive + Reddit 최신글을 누적 · ‘뜨는글’은 사이트별 추천/점수 상위 20%(+리노벨·경쟁사·불만 키워드 포함) · Reddit 공개 RSS는 제목·링크·작성시각 중심이며 반응 수치는 미제공</p>
   <div class="sub" id="sub">데이터 로딩 중…</div>
+  <p class="criteria" id="source-status" role="status" hidden></p>
   <div class="stats">
     <div class="stat hot"><b id="s-show">–</b><span>표시 글</span></div>
     <div class="stat"><b id="s-pain">–</b><span>수요·불만</span></div>
@@ -243,6 +244,7 @@ let DATA=SAMPLE;
 let state={period:"all", view:"all", source:"all", meme:false, q:"", comp:"", pain:"", watch:"", sort:"pop", layout:"grid"};
 
 function hasGroup(p,g){return (p.keyword_hits||[]).some(h=>h.group===g)}
+function escapeHTML(value){return String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 function sourcesList(){return (DATA.sources&&DATA.sources.length)?DATA.sources
   :[...new Set((DATA.posts||[]).map(p=>p.source))];}
 function shortSource(s){return (s||"").replace(/\s*(갤러리|채널)\s*$/,"");}
@@ -329,7 +331,7 @@ function selectHot(posts){
   const bySite={};
   posts.forEach(p=>{(bySite[p.site]=bySite[p.site]||[]).push(p)});
   Object.values(bySite).forEach(list=>{
-    const ranked=[...list].sort((a,b)=>(b.recommend||0)-(a.recommend||0));
+    const ranked=list.filter(p=>p.recommend!=null).sort((a,b)=>(b.recommend||0)-(a.recommend||0));
     const n=Math.max(1,Math.ceil(ranked.length*topP/100));
     ranked.slice(0,n).forEach(p=>{if((p.recommend||0)>=floor)chosen.add(p);});
   });
@@ -352,19 +354,20 @@ function rebuildIndex(){POSTS_BY_KEY={};(DATA.posts||[]).forEach(p=>{POSTS_BY_KE
 // 한 줄(글) HTML — 목록/Pin 뷰에서 공용
 function rowHTML(p,i,ctx){
   const key=p.source+":"+p.post_id;
-  const w=Math.round(((p.recommend||0)/((ctx.maxBySource&&ctx.maxBySource[p.source])||1))*100);
+  const w=Math.max(0,Math.min(100,Math.round(((p.recommend||0)/((ctx.maxBySource&&ctx.maxBySource[p.source])||1))*100)));
   const tags=(p.keyword_hits||[]).map(h=>`<span class="tag ${h.group}">${h.word}</span>`).join("");
   const meme=p.is_meme_candidate?'<span class="tag meme">밈</span>':"";
   const sel=(ctx.hotSet&&ctx.hotSet.has(p))?'<span class="sel">뜨는글</span>':"";
   const metric=ctx.metric||"recommend";
-  const shown = metric==="views" ? "조회 "+(p.views||0).toLocaleString() : "▲"+(p.recommend||0);
-  const subv = metric==="views" ? "▲"+(p.recommend||0)+" · 댓 "+(p.comments||0)
-                                : "조회 "+(p.views||0).toLocaleString()+" · 댓 "+(p.comments||0);
+  const value=(label,n)=>label+" "+(n==null?"미제공":Number(n).toLocaleString());
+  const rec=value(p.site==="reddit"?"점수":"▲",p.recommend);
+  const shown = metric==="views" ? value("조회",p.views) : rec;
+  const subv = (metric==="views" ? rec : value("조회",p.views))+" · "+value("댓",p.comments);
   const dt=(p.date||"").replace("T"," ").slice(5,16);
   return `<div class="row ${hasGroup(p,'brand')?'brand':''}">
     <div class="rank num ${i<3?'top':''}">${i+1}</div>
-    <div><a class="title" href="${p.url}" target="_blank" rel="noopener">${sel}${p.title}</a>
-      <div class="heat" style="width:${Math.max(w,2)}%"></div>
+    <div><a class="title" href="${escapeHTML(p.url)}" target="_blank" rel="noopener">${sel}${escapeHTML(p.title)}</a>
+      ${p.recommend==null?"":`<div class="heat" style="width:${Math.max(w,2)}%"></div>`}
       <div class="meta"><span class="date">${dt}</span>${meme}${tags}</div></div>
     <div class="nums"><div class="metric num">${shown}</div><div class="dim num">${subv}</div></div>
     <div class="pinwrap"><button class="pin ${isPinned(key)?'on':''}" data-pin data-key="${key}" title="Pin/해제">📌</button></div>
@@ -442,7 +445,7 @@ function renderInsight(){
     ? painTop.map(([w,c])=>`<span class="ins-pill">${w} <b>${c}</b></span>`).join("")
     : '<span class="ins-empty">주간 수요·불만 키워드 없음</span>';
   const memeLine = memes.length
-    ? `이번 주 밈 후보 <b>${memes.length}건</b> · 최고: “${memes[0].title}” (▲${memes[0].recommend})`
+    ? `이번 주 밈 후보 <b>${memes.length}건</b> · 최고: “${escapeHTML(memes[0].title)}” (▲${memes[0].recommend})`
     : '이번 주 밈 후보가 아직 없어요.';
 
   // (B) LLM 요약 (insight.json)
@@ -482,6 +485,11 @@ function render(){
   });
   document.getElementById("sub").textContent=
     "기간: "+PERIOD_KO[state.period]+"  ·  누적 "+(DATA.posts||[]).length+"건 중 "+period.length+"건  ·  갱신 "+(DATA.updated_at||"");
+  const notices=Object.entries(DATA.source_status||{})
+    .filter(([source,result])=>result.status==="error"&&(state.source==="all"||state.source===source))
+    .map(([source,result])=>source+" 수집 확인 필요: "+(result.message||"접근 오류")+" · 기존 글은 유지됩니다.");
+  const notice=document.getElementById("source-status");
+  notice.textContent=notices.join(" / ");notice.hidden=!notices.length;
   document.getElementById("s-show").textContent=base.length;
   document.getElementById("s-pain").textContent=base.filter(p=>hasGroup(p,"demand_pain")).length;
   document.getElementById("s-brand").textContent=base.filter(p=>hasGroup(p,"brand")).length;
@@ -491,7 +499,7 @@ function render(){
   const srcCount={};
   period.forEach(p=>{srcCount[p.source]=(srcCount[p.source]||0)+1;});
   let schips='<button class="chip" data-source="all" aria-pressed="'+(state.source==="all"?"true":"false")+'">전체</button>';
-  schips+=sourcesList().map(s=>'<button class="chip" data-source="'+s+'" aria-pressed="'+(state.source===s?"true":"false")+'">'+shortSource(s)+' '+(srcCount[s]||0)+'</button>').join("");
+  schips+=sourcesList().map(s=>'<button class="chip" data-source="'+escapeHTML(s)+'" aria-pressed="'+(state.source===s?"true":"false")+'">'+escapeHTML(shortSource(s))+' '+(srcCount[s]||0)+((DATA.source_status||{})[s]?.status==="error"?' · 수집 확인 필요':'')+'</button>').join("");
   document.getElementById("source-chips").innerHTML=schips;
 
   // 경쟁사 필터 칩 — 현재 기간 내 '정식명별 언급 글 수' 순으로. 칩 자체가 순위표.
@@ -593,7 +601,7 @@ function renderFreq(base){
     const body=rows.map((d,i)=>{
       const c=d[field]||0,w=Math.round(c/max*100);
       const tag=d.group?`<span class="tag ${d.group}">${AXIS[d.group]||d.group}</span>`:"";
-      const bd=`<span class="dim num">디시 ${d.dcinside||0}·아카 ${d.arca||0}</span>`;
+      const bd=`<span class="dim num">디시 ${d.dcinside||0}·아카 ${d.arca||0}·Reddit ${d.reddit||0}</span>`;
       return `<div class="kw"><div class="kwrank num ${i<3?'top':''}">${i+1}</div>
         <div><div class="kwword">${d.word} ${tag}</div><div class="kwbar" style="width:${Math.max(w,2)}%"></div></div>
         <div class="kwnum"><span class="metric num">${c}회</span> ${bd}</div></div>`;
