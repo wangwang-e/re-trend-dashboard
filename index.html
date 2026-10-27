@@ -104,6 +104,7 @@
   .pin.on{opacity:1;filter:none}
   .row .pinwrap{padding-top:1px}
   .row{grid-template-columns:30px 1fr auto auto}
+  .row.reddit{grid-template-columns:30px 1fr auto}
   .ins-card{border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:14px 0}
   .ins-card h3{margin:0 0 10px;font-size:15px;font-weight:800;letter-spacing:-.01em}
   .ins-list{display:flex;flex-wrap:wrap;gap:8px}
@@ -354,6 +355,7 @@ function rebuildIndex(){POSTS_BY_KEY={};(DATA.posts||[]).forEach(p=>{POSTS_BY_KE
 // 한 줄(글) HTML — 목록/Pin 뷰에서 공용
 function rowHTML(p,i,ctx){
   const key=p.source+":"+p.post_id;
+  const isReddit=p.site==="reddit";
   const w=Math.max(0,Math.min(100,Math.round(((p.recommend||0)/((ctx.maxBySource&&ctx.maxBySource[p.source])||1))*100)));
   const tags=(p.keyword_hits||[]).map(h=>`<span class="tag ${h.group}">${h.word}</span>`).join("");
   const meme=p.is_meme_candidate?'<span class="tag meme">밈</span>':"";
@@ -364,12 +366,12 @@ function rowHTML(p,i,ctx){
   const shown = metric==="views" ? value("조회",p.views) : rec;
   const subv = (metric==="views" ? rec : value("조회",p.views))+" · "+value("댓",p.comments);
   const dt=(p.date||"").replace("T"," ").slice(5,16);
-  return `<div class="row ${hasGroup(p,'brand')?'brand':''}">
+  return `<div class="row ${hasGroup(p,'brand')?'brand':''} ${isReddit?'reddit':''}">
     <div class="rank num ${i<3?'top':''}">${i+1}</div>
     <div><a class="title" href="${escapeHTML(p.url)}" target="_blank" rel="noopener">${sel}${escapeHTML(p.title)}</a>
-      ${p.recommend==null?"":`<div class="heat" style="width:${Math.max(w,2)}%"></div>`}
+      ${isReddit||p.recommend==null?"":`<div class="heat" style="width:${Math.max(w,2)}%"></div>`}
       <div class="meta"><span class="date">${dt}</span>${meme}${tags}</div></div>
-    <div class="nums"><div class="metric num">${shown}</div><div class="dim num">${subv}</div></div>
+    ${isReddit?'':`<div class="nums"><div class="metric num">${shown}</div><div class="dim num">${subv}</div></div>`}
     <div class="pinwrap"><button class="pin ${isPinned(key)?'on':''}" data-pin data-key="${key}" title="Pin/해제">📌</button></div>
   </div>`;
 }
